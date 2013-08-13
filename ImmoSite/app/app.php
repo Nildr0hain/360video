@@ -50,6 +50,7 @@
  *          en ziet ook es naar SQL injectie - kan niet droppen - mss niet in de manier dant moet
  * 
  *          Ik zoek graag - verwijder alle "rare" tekens
+ *          Zet readme proper
  *  
  *   +       Zwiert der es extra kollomen in in overzicht. Kwestie van duidelijk te zijn, evt verkleint da font en ziet da Stad enazo der staan. Kamers of bouwjaar ook welkom.
  *          Databank opvullen met data.

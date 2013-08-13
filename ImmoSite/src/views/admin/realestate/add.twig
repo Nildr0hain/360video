@@ -178,7 +178,16 @@
                                                     <dd class="mcs-custom">
                                                             {{ form_widget(addform.Description) }}
                                                             {{ form_errors(addform.Description) }}
+                                                    </dd>                                                    
+                                                    <dt>
+                                                            {{ form_label(addform.files) }}
+                                                    </dt>
+                                                    <dd>
+                                                            {{ form_widget(addform.files,  { 'full_name': addform.files.vars['full_name'] ~ '[]' }) }}
+                                                            {{ form_errors(addform.files) }}
+                                                            {{ form_rest(addform) }}
                                                     </dd>
+                                                    <dt>
                                                     <dt>
                                                             &nbsp;
                                                     </dt>

@@ -320,13 +320,21 @@ class RealEstateController implements ControllerProviderInterface {
 			->add('Province', 'choice', array(
                                 'choices' => $province,
 				'constraints' => array(new Assert\NotBlank())
+                        ))
+                        ->add('files', 'file', array(
+                                'label' => "Choose 1 - 5 pictures",
+                                "attr" => array(
+                                                "multiple" => "multiple",
+                                                "name" => "files[]",
+                                                ),
+				'constraints' => array(new Assert\NotBlank())
                         ));
             
                 // Form was submitted: process it
 		if ('POST' == $app['request']->getMethod()) {
                         $addform->bind($app['request']);
                        // var_dump($addform);
-                        if ($addform->isValid()) {
+                       if ($addform->isValid()) {
                             $data = $addform->getData();                            
                             //var_dump($data['Date_expires']);                            
 
@@ -346,6 +354,23 @@ class RealEstateController implements ControllerProviderInterface {
                                 $ava = 0;
                             }
                             $app['realestates']->insertRealestate($newId, $currentAgentId['id'], $data['Name'], $ava,  $data['State']+1,  $data['Type']+1,  $data['Province']+1,  $data['Location_street'],  $data['Location_City'], date('Y-m-d') , $newDate, $data['Description'], $data['Price'], $data['Size'], $data['Bedrooms'], $data['Buildyear']); 
+                            
+                            
+                            $files = $app['request']->files->get($addform->getName());                            
+                            foreach ($files['files'] as $key => $file) {
+                                //var_dump($file);
+                                if ('.jpg' == substr($file->getClientOriginalName(), -4)) {                                    
+                                   if (!file_exists($app['admin.base_path']."/immo/".$newId)) {
+                                       mkdir($app['admin.base_path']."/immo/".$newId, 0, true);
+                                    }                                               
+                                    // Move it to its new location
+                                    $file->move($app['admin.base_path']."/immo/".$newId, $file->getClientOriginalName());
+                                    //var_dump($app['admin.base_path']."/immo/".$newId);
+                                }     
+                            }
+                             
+                            // zet is valid uit kommentaar
+                            // zwier files[] in data in uw twig - autocomplete dit dat
                             
                             $app['session']->set('added', $data['Name']);  
                             return $app->redirect($app['url_generator']->generate('browse')."?page=1");  
