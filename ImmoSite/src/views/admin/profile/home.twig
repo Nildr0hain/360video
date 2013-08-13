@@ -1,0 +1,186 @@
+{# extend the parent tpl #}
+{% extends 'layout.twig' %}
+
+
+{# set the pagetitle in the parent tpl #}
+{% set pageTitle = 'Admin' %}
+
+{% block pageContent %}  
+            <div class="subnavbar">  
+                <div class="subnavbar-inner">  
+                    <div class="container">  
+			<a class="btn-subnavbar collapsed" data-toggle="collapse" data-target=".subnav-collapse">
+				<i class="icon-reorder"></i>
+			</a>
+
+			<div class="subnav-collapse collapse">
+				<ul class="mainnav">
+					<li>
+						<a href="{{ path('realestate') }}browse?page=1">
+							<i class="icon-home"></i>
+							<span>Home</span>
+						</a>	    				
+					</li>
+                                        <li>  
+                                                <a href="{{ path('add') }}">
+                                                        <i class="icon-plus"></i>
+                                                        <span>Add immo</span>
+                                                </a>     
+                                        </li> 
+                                        <li class="active">  
+                                                <a href="{{ path('profile') }}">
+                                                        <i class="icon-user"></i>
+                                                        <span>Profile</span>
+                                                </a>     
+                                        </li> 
+                                        <li>  
+                                                <a href="{{ path('logout') }}" onclick="return confirm('Are you sure you want to log out?')" >
+                                                        <i class="icon-signout "></i>
+                                                        <span>Logout</span>
+                                                </a>     
+                                        </li> 
+                                </ul>   
+                                 <ul class="subnav pull-right" style="color: white;">			
+                                    <i class="icon-user"></i>  <strong>{{ user|capitalize }}</strong>                                          
+                                </ul> 
+                                
+                        </div> 
+                            
+                    </div>     
+                </div>     
+            </div>     
+                
+                        
+            
+            
+            <div class="main">
+                <div class="container">
+                    <div class="row">      	
+                        <div class="span12">      		
+                            <div class="widget stacked">					
+				<div class="widget-header">
+					<i class=" icon-zoom-in "></i>
+					<h3>Your profile</h3>
+				</div> <!-- /widget-header -->
+				
+				<div class="widget-content">	 
+                                        {% if edited != null %}          
+                                            <p class="alert alert-success">" {{ edited }} "  was succesfully edited!</p>
+                                        {% endif %}
+                                            
+                                        {% if profile %}
+                                            <h2><a href="{{ path('profile') }}">{{ profile.Company_name }}</a></h2>  
+                                                <div class="rightFloat">  
+                                                    <a href="{{ path('profileEdit') }}" class="btn btn-small">
+                                                            <i class="btn-icon-only icon-edit"></i>Edit									
+                                                    </a>
+                                                </div>    
+                                            
+                                                <div id="main_area">
+                                                    <!-- Slider -->
+                                                    <div class="row">
+                                                            <div class="span12" id="slider">
+                                                                    <!-- Top part of the slider -->
+                                                                    <div class="row">                                            
+                                                                            <div class="span3" id="carousel-text"></div>
+                                                                            <div class="span6" id="carousel-bounding-box">
+                                                                                    <div id="myCarousel" class="carousel slide">
+                                                                                            <!-- Carousel items -->
+                                                                                            <div class="carousel-inner">
+                                                                                                    <div class="active item" data-slide-number="0"><img src="{{ app.request.baseUrl }}/img/logos/{{ url }}.jpg" /></div>
+                                                                                           </div>
+                                                                                    </div>
+                                                                            </div>
+                                                                            <div class="span3" id="carousel-text">
+                                                                                <p class="date">Contact name : {{ profile.Contact_name }}</p>
+                                                                                <p class="date">Email : {{ profile.Email }}</p>
+                                                                            </div>
+                                                                    </div>
+                                                            </div>
+                                                        </div> <!--/Slider--> 
+                                                </div>     
+                                            
+                                            
+                                             <div class="row extraTop extraBot">
+                                                    <div class="span12" id="slider">
+                                                            <!-- Top part of the slider -->
+                                                            <div class="row">                                            
+                                                                    <div class="span3" id="carousel-text"></div>
+                                                                    <div class="span6" id="carousel-bounding-box">
+                                                                        <p>{{ profile.Description|raw  }}</p>
+                                                                    </div>
+                                                                    <div class="span3" id="carousel-text">
+                                                                        <p>Buildyear: {{ profile.Website }}</p>                                                                                                               
+
+                                                                        <p>Telephone: {{ profile.Telephone }}</p>  
+                                                                    </div>
+                                                            </div>
+                                                    </div>
+                                             </div> <!--/Slider--> 
+                                             
+                                             
+                                            <div class="row extraBot">
+                                                    <div class="span12" id="slider">
+                                                            <!-- Top part of the slider -->
+                                                            <div class="row">                                            
+                                                                    <div class="span3" id="carousel-text"></div>
+                                                                    <div class="span6" id="carousel-bounding-box">
+                                                                        <div id="map-canvas"></div>
+                                                                    </div>
+                                                                    <div class="span3" id="carousel-text">
+                                                                        <div class="info">                                                                       
+                                                                           <div id="address" class="clearfix">
+                                                                               <p id="street">{{ profile.Address_street|raw }}</p>   
+                                                                               <p id="city">{{ profile.Address_city|raw }}</p>
+                                                                               <p id="country">Belgium</p>  
+                                                                            </div> 
+                                                                       </div>
+                                                                    </div>
+                                                            </div>
+                                                    </div>
+                                               </div> <!--/Slider--> 
+                                        {% else %}          
+                                            <p>No info show!</p>
+                                        {% endif %}
+                                            
+                                        
+                                        
+				</div> <!-- /widget-content -->
+                            </div> <!-- /widget -->
+                        </div>                        
+                    </div> 
+                </div> 
+            </div> 
+                   
+            
+              <div class="extra">
+                    <div class="container">
+                            <div class="row">			
+                                    <div class="span3">				
+                                            <h4>My immo</h4>				
+                                            <ul>
+                                                    <li><a href="{{ path('realestate') }}">See my real estate</a></li>
+                                                    <li><a href="{{ path('add') }}">Add real estate</a></li>
+                                            </ul>				
+                                    </div> <!-- /span3 -->
+
+                                    <div class="span3">				
+                                            <h4>My profile</h4>				
+                                            <ul>
+                                                    <li><a href="{{ path('profile') }}">See my profile</a></li>
+                                                    <li><a href="{{ path('profileEdit') }}">Edit my profile</a></li>
+                                            </ul>				
+                                    </div> <!-- /span3 -->
+
+                                    <div class="span3">				
+                                            <h4>Logout</h4>				
+                                            <ul>
+                                                    <li><a href="{{ path('logout') }}" onclick="return confirm('Are you sure you want to log out?')" >Goodbye</a></li>
+                                            </ul>				
+                                    </div> <!-- /span3 -->
+
+                            </div> <!-- /row -->
+                    </div> <!-- /container -->
+            </div> <!-- /extra -->      
+{% endblock %}
+        

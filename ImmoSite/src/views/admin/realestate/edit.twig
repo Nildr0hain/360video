@@ -1,0 +1,246 @@
+{# extend the parent tpl #}
+{% extends 'layout.twig' %}
+
+
+{# set the pagetitle in the parent tpl #}
+{% set pageTitle = 'Admin' %}
+
+{% block pageContent %}  
+            <div class="subnavbar">  
+                <div class="subnavbar-inner">  
+                    <div class="container">  
+			<a class="btn-subnavbar collapsed" data-toggle="collapse" data-target=".subnav-collapse">
+				<i class="icon-reorder"></i>
+			</a>
+
+			<div class="subnav-collapse collapse">
+				<ul class="mainnav">
+					<li class="active">
+						<a href="{{ path('realestate') }}browse?page=1">
+							<i class="icon-home"></i>
+							<span>Home</span>
+						</a>	    				
+					</li>
+                                        <li>  
+                                                <a href="{{ path('add') }}">
+                                                        <i class="icon-plus"></i>
+                                                        <span>Add immo</span>
+                                                </a>     
+                                        </li> 
+                                        <li>  
+                                                <a href="{{ path('profile') }}">
+                                                        <i class="icon-user"></i>
+                                                        <span>Profile</span>
+                                                </a>     
+                                        </li> 
+                                        <li>  
+                                                <a href="{{ path('logout') }}" onclick="return confirm('Are you sure you want to log out?')" >
+                                                        <i class="icon-signout "></i>
+                                                        <span>Logout</span>
+                                                </a>     
+                                        </li> 
+                                </ul>   
+                                 <ul class="subnav pull-right" style="color: white;">			
+                                    <i class="icon-user"></i>  <strong>{{ user|capitalize }}</strong>                                          
+                                </ul> 
+                                
+                        </div> 
+                            
+                    </div>     
+                </div>     
+            </div>     
+                
+                        
+            
+            
+            <div class="main">
+                <div class="container">
+                    <div class="row">      	
+                        <div class="span12">      		
+                            <div class="widget stacked">					
+				<div class="widget-header">
+					<i class=" icon-edit  "></i>
+					<h3>Edit {{ property.Name }}!</h3>
+				</div> <!-- /widget-header -->
+				
+				<div class="widget-content">	
+                                        <form action="#" method="post" {{ form_enctype(editform) }} novalidate="novalidate">
+                                                <dl class="clearfix">
+                                                    <dt>
+                                                            {{ form_label(editform.Name) }}
+                                                    </dt>
+                                                    <dd>
+                                                            {{ form_widget(editform.Name) }}
+                                                            {{ form_errors(editform.Name) }}
+                                                    </dd>
+                                                    <dt>
+                                                            {{ form_label(editform.Available) }}
+                                                    </dt>
+                                                    <dd>
+                                                            {{ form_widget(editform.Available) }}
+                                                            {{ form_errors(editform.Available) }}
+                                                    </dd>
+                                                    <div class="floatLeft extraTop">                                                        
+                                                        <div class="formItem">
+                                                            <dt>
+                                                                    {{ form_label(editform.Date_available) }}
+                                                            </dt>
+                                                            <dd>                                                                
+                                                                    {{ form_widget(editform.Date_available) }}
+                                                                    {{ form_errors(editform.Date_available) }}
+                                                            </dd>                                                            
+                                                        </div>
+                                                        <div class="formItem">
+                                                            <dt>
+                                                                    {{ form_label(editform.State) }}
+                                                            </dt>
+                                                            <dd>
+                                                                    {{ form_widget(editform.State) }}
+                                                                    {{ form_errors(editform.State) }}
+                                                            </dd>
+                                                        </div>
+                                                        <div class="formItem">
+                                                            <dt>
+                                                                {{ form_label(editform.Type) }}
+                                                            </dt>
+                                                            <dd>
+                                                                {{ form_widget(editform.Type) }}
+                                                                {{ form_errors(editform.Type) }}
+                                                            </dd>
+                                                        </div>
+                                                        <div class="formItem">
+                                                            <dt>
+                                                                {{ form_label(editform.Province) }}
+                                                            </dt>
+                                                            <dd>
+                                                                {{ form_widget(editform.Province) }}
+                                                                {{ form_errors(editform.Province) }}
+                                                            </dd>
+                                                        </div>
+                                                        <div class="formItem">
+                                                            <dt>
+                                                                {{ form_label(editform.Price) }}
+                                                            </dt>
+                                                            <dd>
+                                                                {{ form_widget(editform.Price) }}
+                                                                {{ form_errors(editform.Price) }}
+                                                            </dd> 
+                                                        </div>
+                                                        <div class="formItem">
+                                                            <dt>
+                                                                {{ form_label(editform.Size) }}
+                                                            </dt>
+                                                            <dd>
+                                                                {{ form_widget(editform.Size) }}
+                                                                {{ form_errors(editform.Size) }}
+                                                            </dd> 
+                                                        </div>
+                                                        <div class="formItem">
+                                                            <dt>
+                                                                {{ form_label(editform.Bedrooms) }}
+                                                            </dt>
+                                                            <dd>
+                                                                {{ form_widget(editform.Bedrooms) }}
+                                                                {{ form_errors(editform.Bedrooms) }}
+                                                            </dd>
+                                                        </div>
+                                                        <div class="formItem">
+                                                            <dt>
+                                                                {{ form_label(editform.Buildyear) }}
+                                                            </dt>
+                                                            <dd>
+                                                                {{ form_widget(editform.Buildyear) }}
+                                                                {{ form_errors(editform.Buildyear) }}
+                                                            </dd>
+                                                        </div>
+                                                        <div class="formItem">
+                                                            <dt>
+                                                                    {{ form_label(editform.Location_street) }}
+                                                            </dt>
+                                                            <dd>
+                                                                    {{ form_widget(editform.Location_street) }}
+                                                                    {{ form_errors(editform.Location_street) }}
+                                                            </dd>  
+                                                        </div>  
+                                                        <div class="formItem">
+                                                            <dt>
+                                                                    {{ form_label(editform.Location_City) }}
+                                                            </dt>
+                                                            <dd>
+                                                                    {{ form_widget(editform.Location_City) }}
+                                                                    {{ form_errors(editform.Location_City) }}
+                                                            </dd>   
+                                                        </div>  
+                                                    </div>          
+                                                    <dt class="Descr">
+                                                            {{ form_label(editform.Description) }}
+                                                    </dt>
+                                                    <dd class="mcs-custom">
+                                                            {{ form_widget(editform.Description) }}
+                                                            {{ form_errors(editform.Description) }}
+                                                    </dd>
+                                                    <dt>
+                                                            &nbsp;
+                                                    </dt>
+                                                    <dd>
+                                                            {{ form_widget(editform._token) }}
+                                                           <input type="submit" name="submit" class="btn btn-warning" value="Edit" />
+                                                            <a href="#" id="{{ property.id }}" data-toggle="modal" class="btn confirm-delete">
+                                                                    Delete									
+                                                            </a>   
+                                                    </dd>
+                                                </dl>
+                                            </form>
+				</div> <!-- /widget-content -->
+                            </div> <!-- /widget -->
+                        </div>                        
+                    </div> 
+                </div> 
+            </div> 
+             
+            
+<div class="modal fade" id="delete_popup">
+    <div class="modal-header">
+        <a class="close" data-dismiss="modal">&times;</a>
+        <h3>Are you sure?</h3>
+    </div>
+    <div class="modal-body">
+        <p>You are about to delete this item</p
+        <p>Do you wish to proceed?</p>
+    </div>
+    <div class="modal-footer">       
+        <a href="{{ path('realestate') }}browse?page=1" class="btn" data-dismiss="modal">No, take me back.</a>
+        <a href="{{ path('realestate') }}delete?id=" class="btn btn-warning"  data-dismiss="modal">Yes, proceed.</a>                
+    </div>
+</div>
+              <div class="extra">
+                    <div class="container">
+                            <div class="row">			
+                                    <div class="span3">				
+                                            <h4>My immo</h4>				
+                                            <ul>
+                                                    <li><a href="{{ path('realestate') }}">See my real estate</a></li>
+                                                    <li><a href="{{ path('add') }}">Add real estate</a></li>
+                                            </ul>				
+                                    </div> <!-- /span3 -->
+
+                                    <div class="span3">				
+                                            <h4>My profile</h4>				
+                                            <ul>
+                                                    <li><a href="{{ path('profile') }}">See my profile</a></li>
+                                                    <li><a href="{{ path('profileEdit') }}">Edit my profile</a></li>
+                                            </ul>				
+                                    </div> <!-- /span3 -->
+
+                                    <div class="span3">				
+                                            <h4>Logout</h4>				
+                                            <ul>
+                                                    <li><a href="{{ path('logout') }}" onclick="return confirm('Are you sure you want to log out?')" >Goodbye</a></li>
+                                            </ul>				
+                                    </div> <!-- /span3 -->
+
+                            </div> <!-- /row -->
+                    </div> <!-- /container -->
+            </div> <!-- /extra -->      
+{% endblock %}
+        

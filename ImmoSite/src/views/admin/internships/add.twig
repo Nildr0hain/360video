@@ -1,0 +1,115 @@
+{# extend the parent tpl #}
+{% extends 'layout.twig' %}
+
+
+{# set the pagetitle in the parent tpl #}
+{% set pageTitle = 'Admin' %}
+
+{% block pageContent %}
+        <div id="AdminMain" class="clearfix">  
+            <p>Welcome <strong>{{ user|capitalize }}</strong></p>
+            
+            <div id="AdminLeftBar" class="clearfix">  
+                <h2><a href="{{ path('admin') }}">Board</a></h2> 
+                <h2><a href="{{ path('internships') }}" >Internships</a></h2>     
+                <h2><a href="{{ path('addInternship') }}" class="active">Add internship</a></h2>  
+                <h2><a href="{{ path('profile') }}">Profile</a></h2> 
+                <h2><a href="{{ path('logout') }}">Logout</a></h2>    
+            </div>   
+            
+            <div id="AdminRightBar" class="clearfix">  
+                <h2 id="login">Enter data:</h2>                 
+                
+                <form action="#" method="post" {{ form_enctype(addform) }} novalidate="novalidate">
+                    <dl class="clearfix">
+			<dt>
+				{{ form_label(addform.Title) }}
+			</dt>
+			<dd>
+				{{ form_widget(addform.Title) }}
+				{{ form_errors(addform.Title) }}
+			</dd>
+                        <dt>
+				{{ form_label(addform.available) }}
+			</dt>
+			<dd>
+				{{ form_widget(addform.available) }}
+				{{ form_errors(addform.available) }}
+			</dd>
+                        <dt>
+				{{ form_label(addform.Location_street) }}
+			</dt>
+			<dd>
+				{{ form_widget(addform.Location_street) }}
+				{{ form_errors(addform.Location_street) }}
+			</dd>    
+                        <dt>
+				{{ form_label(addform.Location_city) }}
+			</dt>
+			<dd>
+				{{ form_widget(addform.Location_city) }}
+				{{ form_errors(addform.Location_city) }}
+			</dd>
+                        <dt>
+				{{ form_label(addform.Location_country) }}
+			</dt>
+			<dd>
+				{{ form_widget(addform.Location_country) }}
+				{{ form_errors(addform.Location_country) }}
+			</dd>                   
+                        <dt>
+				{{ form_label(addform.Description) }}
+			</dt>
+			<dd>
+				{{ form_widget(addform.Description) }}
+				{{ form_errors(addform.Description) }}
+			</dd>
+                        <dt>
+				{{ form_label(addform.Qualifications) }}
+			</dt>
+			<dd>
+				{{ form_widget(addform.Qualifications) }}
+				{{ form_errors(addform.Qualifications) }}
+			</dd>
+                         <dt>
+				{{ form_label(addform.Date_expires) }}
+			</dt>
+			<dd>
+				{{ form_widget(addform.Date_expires) }}
+				{{ form_errors(addform.Date_expires) }}
+			</dd>
+                        <dt>
+				{{ form_label(addform.Sector) }}
+			</dt>
+			<dd>
+				{{ form_widget(addform.Sector) }}
+				{{ form_errors(addform.Sector) }}
+			</dd>
+                        <dt>
+				{{ form_label(addform.Diploma) }}
+			</dt>
+			<dd>
+				{{ form_widget(addform.Diploma) }}
+				{{ form_errors(addform.Diploma) }}
+			</dd>
+                         <dt>
+				{{ form_label(addform.Year) }}
+			</dt>
+			<dd>
+				{{ form_widget(addform.Year) }}
+				{{ form_errors(addform.Year) }}
+			</dd>
+			<dt>
+				&nbsp;
+			</dt>
+			<dd>
+				{{ form_widget(addform._token) }}
+                                <input type="submit" name="submit" class="btn" value="Add" />
+			</dd>
+                    </dl>
+                </form>  
+            </div>	               
+            
+        </div>         
+{% endblock %}
+        

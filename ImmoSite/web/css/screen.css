@@ -1,0 +1,164 @@
+	/**
+	 * CSS Clearfix
+	 * @see http://www.positioniseverything.net/easyclearing.html
+	 */
+		.clearfix:after {
+			content: ".";
+			display: block;
+			height: 0;
+			clear: both;
+			visibility: hidden;
+		}
+
+		.ie6 .clearfix {
+			display: inline-block;
+		}
+
+		.ie7 .clearfix {
+			zoom: 1;
+		}
+
+	/**
+	 * General Page Structure
+	 */
+
+		html, body {
+			height: 100%;
+                        zoom: 85%;
+		}
+
+		body {
+                        font-family: 'Open Sans Condensed', sans-serif;
+			font-weight: 300;
+			line-height: 1.48;
+			color: #333;
+			background-color: #908774;
+                        zoom: 85%;
+		}
+                
+                
+                
+                header h1 {
+                        background: url(../img/logo2.jpg) no-repeat  0 100%;
+			font-size: 1em; /* force our base to 16px */
+			width: 27.75em;
+			height: 9em;
+			text-indent: -1000em;
+                        margin-left: 50px;
+			overflow: hidden;
+		}
+
+		a {
+			color: #009ACD;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color: #00688B;
+		}
+
+		.mute {
+			color: #ccc;
+			font-style: italic;
+		}
+
+		header h1 a {
+			font-size: 2em;
+			color: rgb(51, 51, 51);
+			text-decoration: none;
+			color: #4fad26;
+		}
+
+		#siteWrapper {
+			width: 43.75em;
+			margin: 0 auto;
+			padding-bottom: 2em;
+		}
+
+		p, dl {
+			margin: 1.4em 0;
+		}
+
+		p.breadcrumb {
+			margin-top: 0;
+			font-style: italic;
+			font-size: 0.8em;
+		}
+
+		.blogposts article, .blogpost article, .comments article, .author article {
+			border-bottom: 1px solid #ccc;
+			padding: 2em 0;
+		}
+
+		.blogpost article, .author article, section.authors, section.authorblogposts, section.comments {
+			padding: 2em 0 0 0;
+		}
+
+		.blogposts h1, .blogpost h1, .author h1, .authors h1, .comments h1, .authorblogposts h1 {
+			font-size: 1.75em;
+			line-height: 1;
+			margin: 0;
+		}
+
+		.authors ul, .authorblogposts ul {
+			padding-top: 1em;
+		}
+
+		.blogposts footer p, .blogpost footer p, .comments footer p {
+			margin: 0;
+			font-size: 0.8em;
+		}
+
+		.blogpost blockquote, .comments blockquote {
+			padding-left: 1em;
+			border-left: 1px solid #ccc;
+		}
+
+		.authors li a, .authorblogposts li a {
+			background: transparent url(../img/icn_profile.png) no-repeat 0 50%;
+			padding: 0.2em 1.2em;
+			font-size: 1.2em;
+		}
+
+		.author dl dt {
+			width: 20%;
+			float: left;
+			text-align: right;
+			clear: left;
+			margin-bottom: 0.2em;
+		}
+
+		.author dl dd {
+			width: 75%;
+			float: right;
+		}
+
+		[role="contentinfo"] {
+			margin-top: 4em;
+			color: #999;
+			text-align: center;
+		}
+                
+                [role="banner"] {
+			border-bottom: 1px #908774;
+		}
+                
+                #siteWrapper {
+			background-color: white;
+                        width: 1800px;
+                        min-height: 600px;
+		}
+                
+                
+                 footer{
+                    padding-top: 25px;
+                    width: 43.75em;
+                    margin: 0 auto;
+                    padding-bottom: 2em;   
+
+                    background-color: white;
+                    width: 1200px;
+                    margin-top: 25px;
+                    font-size: 20px;
+                }
+/*EOF*/
