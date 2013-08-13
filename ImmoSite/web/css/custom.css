@@ -121,6 +121,16 @@ body .modal{
     height: 250px;
 }
 
+.transform input{
+    width: 25px;
+    float: left;
+}
+
+.transform label{
+    padding-right: 25px;
+    float: left;
+}
+
 .extra{
    bottom:0;
    width:100%;

@@ -397,7 +397,25 @@ class RealEstateController implements ControllerProviderInterface {
 		$state = $app['realestates']->getEnum("State");
 		$type = $app['realestates']->getEnum("Type");
 		$province = $app['realestates']->getEnum("Province");
-                                               
+                                
+                if ($handle = opendir($app['admin.base_path'] . "\\immo\\" . $propertyId )) {
+                  //  echo "Directory handle: $handle\n";
+                  //  echo "Entries:\n";
+                   $i = 0;
+                   $exit = false;
+                    /* This is the correct way to loop over the directory. */
+                    while (false !== ($entry = readdir($handle)) && !$exit) {
+                        while (false !== ($entry = readdir($handle))) {
+                            if ($entry != "." && $entry != "..") {                         
+                                $imgAr[$i] = $entry;
+                                $i++;
+                            }
+                        }
+                    }
+                    closedir($handle);
+                }
+                
+                
                 $bool = false;
                 if($property[0]['Available']){
                     $bool = true;
@@ -465,6 +483,20 @@ class RealEstateController implements ControllerProviderInterface {
                                 'data' => array_search($property[0]['Province'], $province),
                                 'choices' => $province,
 				'constraints' => array(new Assert\NotBlank())
+                        ))
+                        ->add('Delete', 'choice', array(
+                                'label' => "Select the ones you would like to delete ",
+                                "attr" => array("data-link" => $propertyId ),
+                                'choices' => $imgAr,
+                                'expanded' => true,
+                                'multiple' => true
+                        )) 
+                        ->add('files', 'file', array(
+                                'label' => "Choose new pictures",
+                                "attr" => array(
+                                                "multiple" => "multiple",
+                                                "name" => "files[]",
+                                                )
                         ));
                         
             
@@ -490,14 +522,48 @@ class RealEstateController implements ControllerProviderInterface {
                             //$app['realestate']->updateData($data['Title'], $data['available'], $data['Sector']+1, $data['Location_street'],$data['Location_city'],$data['Location_country'], date('Y-m-d') , $data['Date_expires'], $data['Description'], $data['Qualifications'], $data['Diploma']+1, $data['Year']+1, $id); 
                             $app['realestates']->updateRealestate($id, $currentAgentId['id'], $data['Name'], $ava,  $data['State']+1,  $data['Type']+1,  $data['Province']+1,  $data['Location_street'],  $data['Location_City'], date('Y-m-d') , $newDate, $data['Description'], $data['Price'], $data['Size'], $data['Bedrooms'], $data['Buildyear']); 
                                 
+                            $files = $app['request']->files->get($editform->getName());        
+                            var_dump($files['files']);
+                            if ($files['files'][0] != null) {
+                                 foreach ($files['files'] as $key => $file) {
+                                    //var_dump($file);
+                                    if ('.jpg' == substr($file->getClientOriginalName(), -4)) {                                    
+                                       if (!file_exists($app['admin.base_path']."/immo/".$id)) {
+                                           mkdir($app['admin.base_path']."/immo/".$id, 0, true);
+                                        }                                               
+                                        // Move it to its new location
+                                        $file->move($app['admin.base_path']."/immo/".$id, $file->getClientOriginalName());
+                                        //var_dump($app['admin.base_path']."/immo/".$newId);
+                                    }     
+                                }
+                            }
+                            
+                            //var_dump($data);
+                            if ($data['Delete'][0] != null || $data['Delete'] != null) {
+                                // ge krijgt den id van den img in den array terug da ge moet verwijdern
+                                foreach ($data['Delete'] as $item) {              
+                                    $temp = $imgAr[$item];
+                                 //   var_dump($temp);
+                                    unlink($app['admin.base_path']."immo".DIRECTORY_SEPARATOR. $id .DIRECTORY_SEPARATOR.$temp); //delete it
+                                //    var_dump($app['admin.base_path']."immo".DIRECTORY_SEPARATOR.$temp);
+                                }
+                                
+                            }
+                           
+                            
+                            // set update & doorverwijslink terug uit kommentaar
+                            
                             $app['session']->set('added', $data['Name']);  
                             return $app->redirect($app['url_generator']->generate('realestate')."?page=0");  
                             
                         }
                 }
-                       
+                
+                $link = $app['admin.base_path']."immo/".$propertyId."/";
 		return $app['twig']->render('admin/realestate/edit.twig', array(
                     'property' => $property[0],                    
+                    'imgAr' => $imgAr,             
+                    'link' => $link, 
                     'editform' => $editform->createView(), 
                     "user"   => $app['session']->get('username')));        
         }
@@ -514,10 +580,9 @@ class RealEstateController implements ControllerProviderInterface {
                                 
                 $propertyId = $app['request']->get('id');
                 $temp = $app['realestates']->checkId($currentAgentId['id'], $propertyId);
-                                
-                $app['session']->set('Wrong', 'Don\'t you fiddle with my shizzle');  
-                
+                                                  
 		if (!$temp) {
+                        $app['session']->set('Wrong', 'Don\'t you fiddle with my shizzle');
 			return $app->redirect($app['url_generator']->generate('realestate')."?page=0");
 		}
 	}

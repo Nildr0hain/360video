@@ -179,10 +179,27 @@
                                                             {{ form_widget(editform.Description) }}
                                                             {{ form_errors(editform.Description) }}
                                                     </dd>
+                                                    <dt class="extraTop">
+                                                            {{ form_label(editform.files) }}
+                                                    </dt>
+                                                    <dd class="extraBot">
+                                                            {{ form_widget(editform.files,  { 'full_name': editform.files.vars['full_name'] ~ '[]' }) }}
+                                                            {{ form_errors(editform.files) }}
+                                                    </dd>
+                                                    <dt>
+                                                            {{ form_label(editform.Delete) }}
+                                                    </dt>
+                                                    <dd class="transform">
+                                                           {% for img in imgAr %}
+                                                                {{ form_widget(editform.Delete[loop.index0]) }}
+                                                                <label><img src="{{ app.request.baseUrl }}/img/immo/{{ property.id }}/{{ img }}"  width=175px /></label>
+                                                            {% endfor %}
+                                                            {{ form_errors(editform.Delete)}}
+                                                    </dd>
                                                     <dt>
                                                             &nbsp;
                                                     </dt>
-                                                    <dd>
+                                                    <dd style="margin-top: 185px;">
                                                             {{ form_widget(editform._token) }}
                                                            <input type="submit" name="submit" class="btn btn-warning" value="Edit" />
                                                             <a href="#" id="{{ property.id }}" data-toggle="modal" class="btn confirm-delete">

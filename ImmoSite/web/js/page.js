@@ -79,7 +79,16 @@ $( document ).ready(function() {
         $('.Slogan p').textfill({ maxFontPixels: 36 });
               
               
-              
+       
+          //  var jpgName = $("#editform_Delete label").html();
+          //  console.log("JPG NAME " + jpgName);           
+          //  var jpgLink = $("#editform_Delete").attr("data-link");
+          //  console.log("JPG TITLE " + jpgLink);
+          //  $("#editform_Delete label").html("<img src=\"../../img/immo/" + jpgLink + "/" + jpgName + "\" width=\"100px\" height=\"75px\">");
+          //  console.log("<img src=\"../../img/immo/" + jpgLink + "\"" + jpgName + "\" width=\"100px\" height=\"75px\">");
+                        
+          //  var elements = document.getElementsByClassName("transform");
+          //  console.log(elements);
               
               
 

@@ -29,9 +29,9 @@
  *    +      home search value - switch page - it dissapears         
  *          Als ge filtert en ge zet na uw ; niks loopt ie vast
  * 
- *          Implement fotosch in 
- *              add
- *              edit
+ *    +      Implement fotosch in 
+ *    +          add
+ *    +          edit
  * 
  *    +      Overal waar delete staat moet de confirm dropdown komen
  *    +          home
@@ -41,6 +41,7 @@
  *    +      UW LOGO - weer nie aanklikbaar. Hoempapa.
  *    +      Check alle links / ook die in de extra footer :D
  *          wss kunt ge delete - twig gewoon verwijderen - checken die handel
+ *   +       dont you fiddle with ny shizzle functie doet raar
  * 
  *    +      Sub screens, grats ge hebt succesvol iets gedaan :D implement @ edit delete login register add 
  *    +      Fix linkske van /home naar /admin. Make it easyyyyy
