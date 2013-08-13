@@ -1,29 +1,20 @@
-# Website publiced on:
-# saradebbaut.ikdoeict.be/wtproject/web
-
 # Admin dashboard publiced on:
-# saradebbaut.ikdoeict.be/wtproject/web/admin
+# immoSite/web/admin
 
-# sql dump in rescources map
+ # sql dump in rescources map 
 
 
 
 # Acces to the admin pages?
 
 # Users:
-# info@chemicalia.fr
-# info@erasmus.be
-# info@educatia.com
-# info@bankaria.ho
-
-# Passwords:
-# Chemicalia
-# Erasmus
-# Educatia
-# Bankaria
+# info@rentabilicous.be 
+# info@sellicious.be
+ #  Passwords:
+# Rentalicious# Sellicious# 
 
 
-Website by Debbaut Sara
+Website by Debbaut Sara 
 CSS by Debbaut Sara
 
 
