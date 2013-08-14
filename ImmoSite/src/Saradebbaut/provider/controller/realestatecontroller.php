@@ -16,14 +16,10 @@ use Acme\TaskBundle\Form\DataTransformer\IssueToNumberTransformer;
  * TO DO HERE: 
  *  
  *  OVERZICHT
- *   +   * Stages sorten op datum
- * 
- *  DETAILS
- *      * link maken naar email van het bedrijf in detail
- *      * CSS aanpassen - consecuentie? - en leert typen
+ *   +    sorten op datum
  * 
  *  EDIT
- *    +  * ZORG DAT DROPDOWNS INGEVULD ZIJN
+ *    +   ZORG DAT DROPDOWNS INGEVULD ZIJN
  * 
  */
         
@@ -84,11 +80,13 @@ class RealEstateController implements ControllerProviderInterface {
                
                // -------------------------------- Get base data --------------------------------------------- //     
                 $username = $app['session']->get('username');
-                //var_dump($username);                
                 $userId = $app['agents']->getAgentId($username);
+                $userId = $userId['id'];
+                //var_dump($userId);                
+                
                 
                 // number of items on page 
-                $pageItems = 5;
+                $pageItems = 7;
                 //Current page
                 $page = $app['request']->get('page');
                 if ($page == 0 || $page < 0)  { 
@@ -166,8 +164,8 @@ class RealEstateController implements ControllerProviderInterface {
                                                                                     ));
                 
                 //var_dump($app['session']->get('filterItems'));
-                $showOnScreen = $app['realestates']->getPropertiesFilter(($page-1) * $pageItems, ($page*$pageItems), $app['session']->get('serialize')["available"],$app['session']->get('serialize')["offer"], isset($app['session']->get('filterItems')[0])?$app['session']->get('filterItems'):null); 
-                $count = $app['realestates']->getPropertiesFilterCount($app['session']->get('serialize')["available"],$app['session']->get('serialize')["offer"], isset($app['session']->get('filterItems')[0])?$app['session']->get('filterItems'):null); 
+                $showOnScreen = $app['realestates']->getPropertiesFilter(($page-1) * $pageItems, ($page*$pageItems), $app['session']->get('serialize')["available"],$app['session']->get('serialize')["offer"], isset($app['session']->get('filterItems')[0])?$app['session']->get('filterItems'):null , $userId); 
+                $count = $app['realestates']->getPropertiesFilterCount($app['session']->get('serialize')["available"],$app['session']->get('serialize')["offer"], isset($app['session']->get('filterItems')[0])?$app['session']->get('filterItems'):null , $userId); 
                 //var_dump($showOnScreen);        
                                 
                // -------------------------------- PAGINATION: funtional --------------------------------------------- //     
@@ -554,7 +552,7 @@ class RealEstateController implements ControllerProviderInterface {
                             // set update & doorverwijslink terug uit kommentaar
                             
                             $app['session']->set('added', $data['Name']);  
-                            return $app->redirect($app['url_generator']->generate('realestate')."?page=0");  
+                            return $app->redirect($app['url_generator']->generate('realestate')."?page=1");  
                             
                         }
                 }
@@ -583,7 +581,7 @@ class RealEstateController implements ControllerProviderInterface {
                                                   
 		if (!$temp) {
                         $app['session']->set('Wrong', 'Don\'t you fiddle with my shizzle');
-			return $app->redirect($app['url_generator']->generate('realestate')."?page=0");
+			return $app->redirect($app['url_generator']->generate('realestate')."?page=1");
 		}
 	}
 

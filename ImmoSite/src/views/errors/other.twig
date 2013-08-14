@@ -1,29 +1,50 @@
 {# extend the parent tpl #}
-{% extends 'publicLayout.twig' %}
-    
-{# set the pagetitle in the parent tpl #}
-{% set pageTitle = 'ERROR' %}
+{% extends 'layoutPublic.twig' %}
 
-{% block pageContent %}
-        <div id="Main" class="clearfix">             
+
+{# set the pagetitle in the parent tpl #}
+{% set pageTitle = 'Admin' %}
+
+{% block pageContent %}  
+            <div class="subnavbar">  
+                
+                        <div class="container">
+
+                                <div class="row">
+
+                                        <div class="span12">
+
+                                                <div class="error-container">
+                                                        <h1>Oops!</h1>
+
+                                                        <h2>Monkeys!</h2>
+
+                                                        <div class="error-details">
+                                                                Sorry, an error has occured, Requested page not found!
+
+                                                        </div> <!-- /error-details -->
+
+                                                        <div class="error-actions">
+                                                                <a href="{{ path('realestate') }}browse?page=1" class="btn btn-large btn-primary">
+                                                                        <i class="icon-chevron-left"></i>
+                                                                        &nbsp;
+                                                                        Back to Dashboard						
+                                                                </a>
+                                                        </div> <!-- /error-actions -->
+
+                                                </div> <!-- /error-container -->			
+
+                                        </div> <!-- /span12 -->
+
+                                </div> <!-- /row -->
+
+                        </div> <!-- /container -->
+                            
+                    </div>     
+                </div>     
+            </div>     
+                
+                        
+
+{% endblock %}  
             
-            <div id="LeftBar" class="clearfix">    
-                <h2><a href="{{ path('contact.view') }}">Contact</a></h2> 
-                <h2><a href="{{ app.request.getBaseURL() }}/companies/browse?page=1">Companies</a></h2>  
-                <h2><a href="{{ app.request.getBaseURL() }}/internships/browse?page=1">Internships</a></h2>  
-                <h2><a href="{{ path('home.view') }}">Home</a></h2> 
-            </div> 
-            
-           
-            <div id="RightBar" class="clearfix">
-                    <div class="Slogan" style="margin-top: -75px;">
-                        <p><a href="{{ path('home.view') }}">Home</a> > Something strange occured.</p>   
-                    </div>           
-                    <p>{{ error }}</p>
-                                   
-            </div>   
-            
-            
-        </div>         
-{% endblock %}
-        

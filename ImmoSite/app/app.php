@@ -38,23 +38,32 @@
  *    +          edit
  *    +          add
  * 
+ *          Alles door validators rammen
+ *              CSS
+ *              HTML
+ * 
+ *          Customise tiny mce
+ * 
+            Er	zijn	geen	grote	beveiligingsproblemen	(SQL	Injec;e,	Cross-Site	Scrip;ng	(XSS),	Parameter	
+            Tampering,	Encrypteren	van	wachtwoorden,	Onderdrukken	van	foutmeldingen)
+ * 
  *    +      UW LOGO - weer nie aanklikbaar. Hoempapa.
  *    +      Check alle links / ook die in de extra footer :D
- *          wss kunt ge delete - twig gewoon verwijderen - checken die handel
- *   +       dont you fiddle with ny shizzle functie doet raar
+ *    -      wss kunt ge delete - twig gewoon verwijderen - checken die handel
+ *    +      dont you fiddle with ny shizzle functie doet raar
  * 
  *    +      Sub screens, grats ge hebt succesvol iets gedaan :D implement @ edit delete login register add 
  *    +      Fix linkske van /home naar /admin. Make it easyyyyy
- *          Error pages hier vanonder uit kommentaar dankuwel alstulieft
+ *    +      Error pages hier vanonder uit kommentaar dankuwel alstulieft
  * 
  *          PARAMETER TAMPERING - srsly - SEARCH FIELD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
  *          en ziet ook es naar SQL injectie - kan niet droppen - mss niet in de manier dant moet
  * 
- *          Ik zoek graag - verwijder alle "rare" tekens
+ *    +      Ik zoek graag - verwijder alle "rare" tekens
  *          Zet readme proper
  *  
- *   +       Zwiert der es extra kollomen in in overzicht. Kwestie van duidelijk te zijn, evt verkleint da font en ziet da Stad enazo der staan. Kamers of bouwjaar ook welkom.
- *          Databank opvullen met data.
+ *    +      Zwiert der es extra kollomen in in overzicht. Kwestie van duidelijk te zijn, evt verkleint da font en ziet da Stad enazo der staan. Kamers of bouwjaar ook welkom.
+ *   -       Databank opvullen met data.
  * 
  *          Last but not least - loopt lijstjen met verreisten nog es af.
  * 
@@ -62,12 +71,14 @@
  *   +       Zoekveld danst graag. Tango enazo.
  *          Home - available - offer - zet margin 10 naar rechts
  *          Mijne footer danst oek geire. Ofwel staat hem fixed mid screen of wel random. 
+ *          Mijn slide show switcht van hoogte
  * 
  * uitbreiden :       
  *   +      filteren op meerdere woorden Or / And fnctie uitwerken  - AND it is
  *          Ik ben pro en wil filteren als ge op table name klikt
  *          Live search op huidige item list
  *          Profiel kunnen verwijderen - automatisch ook alle realestate
+ *          Der is niks van limitaion van aantal bestanden op multifile uploader.
  * 
  * 
  * Bronnen:
@@ -84,10 +95,10 @@ require __DIR__ . DIRECTORY_SEPARATOR . 'bootstrap.php';
 
 $app->error(function (\Exception $e, $code) use ($app) {
 	if ($code == 404) {
-		//return $app['twig']->render('errors/404.twig', array('error' => $e->getMessage()));
+		return $app['twig']->render('errors/404.twig', array('error' => $e->getMessage()));
 	} else {
-                //return $app['twig']->render('errors/other.twig', array('error' => "Shenanigans! Something went horribly wrong. "  . $e->getMessage()));
-		//return  // ' . $e->getMessage();
+                return $app['twig']->render('errors/other.twig', array('error' => "Shenanigans! Something went horribly wrong. "  . $e->getMessage()));
+		//return $e->getMessage();
 	}
 });
     

@@ -27,40 +27,69 @@
 
 	<div class="wrapper">
             
-            <div class="navbar navbar-inverse navbar-fixed-top">
-                <div class="navbar-inner">
-                    <div class="container">                        
-                        <header>
-                            <a class="brand" href="{{ app.request.baseUrl }}/admin">ImmoSite!</a>
-                        </header>
+                <div class="navbar navbar-inverse navbar-fixed-top">
+                    <div class="navbar-inner">
+                        <div class="container">                        
+                            <header>
+                                <a class="brand" href="{{ app.request.baseUrl }}/admin">ImmoSite!</a>
+                            </header>
+                        </div>
                     </div>
                 </div>
-            </div>
             
 		<!-- content -->
-		<section>
+                <section class="bodySection clearfix">
 
 			{% block pageContent %}
 				Hello!
 			{% endblock %}
 
 		</section>
-
-                
-                <div class="footer">		
-                        <div class="container">		
+                	
+                <div class="extra">
+                        <div class="container">
                                 <div class="row">			
-                                        <div id="footer-copyright" class="span6">
-                                                &copy;Debbaut Sara
-                                        </div> <!-- /span6 -->			
-                                        <div id="footer-terms" class="span6">
-                                                2013 &mdash; saradebbaut.ikdoeict.be
-                                        </div> <!-- /.span6 -->			
-                                </div> <!-- /row -->		
-                        </div> <!-- /container -->	
-                </div> <!-- /footer -->
+                                        <div class="span3">				
+                                                <h4>My immo</h4>				
+                                                <ul>
+                                                        <li><a href="{{ path('realestate') }}">See my real estate</a></li>
+                                                        <li><a href="{{ path('add') }}">Add real estate</a></li>
+                                                </ul>				
+                                        </div> <!-- /span3 -->
 
+                                        <div class="span3">				
+                                                <h4>My profile</h4>				
+                                                <ul>
+                                                        <li><a href="{{ path('profile') }}">See my profile</a></li>
+                                                        <li><a href="{{ path('profileEdit') }}">Edit my profile</a></li>
+                                                </ul>				
+                                        </div> <!-- /span3 -->
+
+                                        <div class="span3">				
+                                                <h4>Logout</h4>				
+                                                <ul>
+                                                        <li><a href="{{ path('logout') }}" onclick="return confirm('Are you sure you want to log out?')" >Goodbye</a></li>
+                                                </ul>				
+                                        </div> <!-- /span3 -->
+
+                                </div> <!-- /row -->
+                        </div> <!-- /container -->
+                </div> <!-- /extra -->     
+                <div class="footer">  	
+                    <div class="container">		
+                            <div class="row">			
+                                    <div id="footer-copyright" class="span6">
+                                            &copy;Debbaut Sara
+                                    </div> <!-- /span6 -->			
+                                    <div id="footer-terms" class="span6">
+                                            2013 &mdash; saradebbaut.ikdoeict.be
+                                    </div> <!-- /.span6 -->			
+                            </div> <!-- /row -->		
+                    </div> <!-- /container -->	
+            </div> <!-- /footer -->
         </div>
+    
+        
     
     
         

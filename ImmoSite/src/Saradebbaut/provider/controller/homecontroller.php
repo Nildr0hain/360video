@@ -11,22 +11,6 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Silex\Provider\FormServiceProvider;
 
-/**
- * TO DO HERE: 
- *  
- *  OVERZICHT
- *      * Stages sorten op datum
- * 
- *  DETAILS
- *      * link maken naar email van het bedrijf in detail
- *      * CSS aanpassen - consecuentie? - en leert typen
- * 
- *  EDIT
- *    +  * ZORG DAT DROPDOWNS INGEVULD ZIJN
- * 
- */
-        
-
 class HomeController implements ControllerProviderInterface {
 
 	function __construct() {

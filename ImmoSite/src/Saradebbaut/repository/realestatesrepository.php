@@ -32,7 +32,7 @@ class realestatesrepository extends \Knp\Repository {
         public function getPropertiesPage($id, $min, $max) {
 		return $this->db->fetchAll('SELECT * FROM properties WHERE Agents_id = ? ORDER BY date_posted ASC LIMIT ' . $min .",". $max, array($id));
 	}
-        public function getPropertiesFilter($min, $max, $avail, $state, $items) {   
+        public function getPropertiesFilter($min, $max, $avail, $state, $items, $id) {   
             //var_dump($max);  
             if ($items != null) {                       
                 $str = '';        
@@ -43,9 +43,9 @@ class realestatesrepository extends \Knp\Repository {
                         //var_dump($str);
                     }                   
                 }
-                $result = $this->db->fetchAll('SELECT * FROM properties WHERE Available = ? AND State = ? '. $str .' ORDER BY date_posted ASC LIMIT ' . $min . ',' .$max , array($avail, $state));
+                $result = $this->db->fetchAll('SELECT * FROM properties WHERE Agents_id = ? AND Available = ? AND State = ? '. $str .' ORDER BY date_posted ASC LIMIT ' . $min . ',' .$max , array($id, $avail, $state));
             }  else {                
-		$result =  $this->db->fetchAll('SELECT * FROM properties WHERE Available = ? AND State = ? ORDER BY date_posted ASC LIMIT  ' . $min .",". $max, array($avail, $state));
+		$result =  $this->db->fetchAll('SELECT * FROM properties WHERE  Agents_id = ? AND  Available = ? AND State = ? ORDER BY date_posted ASC LIMIT  ' . $min .",". $max, array($id, $avail, $state));
             }            
             //var_dump($result);
             return  $result;

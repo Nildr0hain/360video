@@ -19,7 +19,7 @@ use Silex\Provider\FormServiceProvider;
  *      zorg dat data gecontroleerd word          
  *    +      * Zorg dat je checkt of het een email  is
  *          * PW moet lang genoeg zijn + cijfers
- *          * login var = use when cookie with name made
+ *    +      * login var = use when cookie with name made
  * 
  * @register 
  *          * check of er cijfers en hoofdletters in het passwoord zitten
