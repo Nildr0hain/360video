@@ -71,6 +71,13 @@ th.td-actions{
     -moz-box-shadow: 0 0 6px #2D78E9;
     box-shadow: 0 0 6px #2D78E9;
 }
+#searchform_available{
+    margin-left: 0px;
+}
+#searchform_offer{
+    margin-left: 0px;
+}
+
 
 input, textarea, select{
     margin-left: -10px;
@@ -121,6 +128,11 @@ body .modal{
     width: 1090px;
     height: 250px;
 }
+
+.carousel-inner{    
+    height: 350px;
+}
+
 
 .transform input{
     width: 25px;

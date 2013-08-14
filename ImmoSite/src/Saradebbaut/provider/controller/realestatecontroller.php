@@ -100,7 +100,7 @@ class RealEstateController implements ControllerProviderInterface {
                                 'label' => "Fill in any keyword",
                                 'attr' => array("autocomplete"=>"off"),
                                 'attr' => array("class"=>"input-block-level search-query"),
-                                'attr' => array("placeholder"=>"Name; type; price; #bedrooms ..."),
+                                'attr' => array("placeholder"=>"Name; type; price; size ..."),
                                 'data' => isset($app['session']->get('filterItems')[0])? implode("; ", $app['session']->get('filterItems')): "")
 			)
                         ->add('available', 'choice', array(
@@ -254,8 +254,6 @@ class RealEstateController implements ControllerProviderInterface {
 			$app->abort(404, 'Stage $property does not exist');
 		}                
                        
-                //var_dump($internship[0]);
-                //var_dump($internship[0]["Qual"]);
                 /*return $app['twig']->render('admin/realestate/delete.twig', array( 
                     "user"   => $app['session']->get('username'),
                     'property' => $property[0]

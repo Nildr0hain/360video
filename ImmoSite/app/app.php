@@ -27,7 +27,7 @@
  *    +      Profile edit - Tiny mce olee olee
  * 
  *    +      home search value - switch page - it dissapears         
- *          Als ge filtert en ge zet na uw ; niks loopt ie vast
+ *    + - No more AND FUNCTION - anders wast sql inj -      Als ge filtert en ge zet na uw ; niks loopt ie vast
  * 
  *    +      Implement fotosch in 
  *    +          add
@@ -38,9 +38,9 @@
  *    +          edit
  *    +          add
  * 
- *          Alles door validators rammen
- *              CSS
- *              HTML
+ *    +      Alles door validators rammen
+ *    +          CSS
+ *    +          HTML
  * 
  *    -      Customise tiny mce
  * 
@@ -60,21 +60,21 @@
  *    +      en ziet ook es naar SQL injectie - kan niet droppen - mss niet in de manier dant moet
  * 
  *    +      Ik zoek graag - verwijder alle "rare" tekens
- *          Zet readme proper
+ *    +      Zet readme proper
  *  
  *    +      Zwiert der es extra kollomen in in overzicht. Kwestie van duidelijk te zijn, evt verkleint da font en ziet da Stad enazo der staan. Kamers of bouwjaar ook welkom.
- *   -       Databank opvullen met data.
+ *    -      Databank opvullen met data.
  * 
- *          Last but not least - loopt lijstjen met verreisten nog es af.
+ *    +     Last but not least - loopt lijstjen met verreisten nog es af.
  * 
  * Bugs:
  *   +       Zoekveld danst graag. Tango enazo.
- *          Home - available - offer - zet margin 10 naar rechts
- *          Mijne footer danst oek geire. Ofwel staat hem fixed mid screen of wel random. 
- *          Mijn slide show switcht van hoogte
+ *   +       Home - available - offer - zet margin 10 naar rechts
+ *   MERDE       Mijne footer danst oek geire. Ofwel staat hem fixed mid screen of wel random. 
+ *   +       Mijn slide show switcht van hoogte
  * 
  * uitbreiden :       
- *   +      filteren op meerdere woorden Or / And fnctie uitwerken  - AND it is
+ *    + - No more AND FUNCTION - anders wast sql inj -     filteren op meerdere woorden Or / And fnctie uitwerken  - AND it is
  *          Ik ben pro en wil filteren als ge op table name klikt
  *          Live search op huidige item list
  *          Profiel kunnen verwijderen - automatisch ook alle realestate
