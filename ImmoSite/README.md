@@ -1,53 +1,29 @@
-# Website publiced on:
-# saradebbaut.ikdoeict.be/wtproject/web
+Dashboard publiced on:
+ immosite/web/admin
 
-# Admin dashboard publiced on:
-# saradebbaut.ikdoeict.be/wtproject/web/admin
 
-# sql dump in rescources map
+sql dump in rescources map
 
 
 
-# Acces to the admin pages?
 
-# Users:
-# info@chemicalia.fr
-# info@erasmus.be
-# info@educatia.com
-# info@bankaria.ho
 
-# Passwords:
-# Chemicalia
-# Erasmus
-# Educatia
-# Bankaria
+Acces to the admin pages?
+
+
+Users:
+info@rentalicious.be
+info@sellicious.be
+
+
+
+Passwords:
+
+Rentalicious
+Sellicious
+
+
+
 
 
 Website by Debbaut Sara
-CSS by Debbaut Sara
-
-
-## Requirements
-
-- [Composer](http://getcomposer.org/)
-- PHP 5.4
-
-## Installation
-
-- Get the source and install the dependencies
-
-	$ composer install
-
-## Running the project
-
-### Using PHP 5.4
-
-- Open a shell, navigate to the project root and run `php -S localhost:8080 -t web web/index.php` to start a PHP web server
-- Open `http://localhost:8080/` in your browser
-
-### Using your favorite webserver
-
-- Create a virtualhost pointing to the web folder
-- Make sure you've enabled rewriting
-	- See [http://silex.sensiolabs.org/doc/web_servers.html](http://silex.sensiolabs.org/doc/web_servers.html) for more info
-	- A `.htaccess` for use with Apache is already included
