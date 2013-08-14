@@ -63,7 +63,12 @@
 					<h3>Details</h3>
 				</div> <!-- /widget-header -->
 				
-				<div class="widget-content">	
+                                
+				<div class="widget-content">
+                                    {% if edited != null %}          
+                                        <p class="alert alert-success">" {{ edited }} "  was succesfully edited!</p>
+                                    {% endif %}
+                                    
                                         {% if property %}
                                             <h2><a href="{{ path('realestate') }}details?id={{ property.id }}">{{ property.Name }}</a></h2>  
                                                 <div class="rightFloat">  

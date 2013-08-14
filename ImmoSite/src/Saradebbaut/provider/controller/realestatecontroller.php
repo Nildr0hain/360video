@@ -47,7 +47,8 @@ class RealEstateController implements ControllerProviderInterface {
                 $controllers
                         ->match('/details', array($this, 'details'))
 			->before(array($this, 'checkRightId'))
-			->before(array($this, 'checkLogin'));                
+			->before(array($this, 'checkLogin'))  
+			->bind('details');             
                 $controllers
                         ->match('/edit', array($this, 'edit'))
 			->before(array($this, 'checkRightId'))
@@ -207,6 +208,10 @@ class RealEstateController implements ControllerProviderInterface {
 	}
         
         public function details(Application $app) {
+                $edited  = isset($app['session']->get('edited')[0])?$app['session']->get('edited'):null;
+                $app['session']->remove('edited'); 
+                
+                
                 $propertyId = $app['request']->get('id');
 		$property = $app['realestates']->getProperty($propertyId);
                 $property = $property[0];
@@ -236,7 +241,8 @@ class RealEstateController implements ControllerProviderInterface {
                 
 		return $app['twig']->render('admin/realestate/detail.twig', array(  
                     "user"   => $app['session']->get('username'),
-                    "imgAr"   => $imgAr,
+                    "imgAr"   => $imgAr,    
+                    'edited' => $edited,       
                     'property' => $property
                  ));
 	}
@@ -537,7 +543,7 @@ class RealEstateController implements ControllerProviderInterface {
                             }
                             
                             //var_dump($data);
-                            if ($data['Delete'][0] != null || $data['Delete'] != null) {
+                            if (isset($data['Delete'][0]) || $data['Delete'] != null) {
                                 // ge krijgt den id van den img in den array terug da ge moet verwijdern
                                 foreach ($data['Delete'] as $item) {              
                                     $temp = $imgAr[$item];
@@ -551,8 +557,8 @@ class RealEstateController implements ControllerProviderInterface {
                             
                             // set update & doorverwijslink terug uit kommentaar
                             
-                            $app['session']->set('added', $data['Name']);  
-                            return $app->redirect($app['url_generator']->generate('realestate')."?page=1");  
+                            $app['session']->set('edited', $data['Name']);  
+                            return $app->redirect($app['url_generator']->generate('details')."?id=" . $id);  
                             
                         }
                 }
@@ -560,7 +566,7 @@ class RealEstateController implements ControllerProviderInterface {
                 $link = $app['admin.base_path']."immo/".$propertyId."/";
 		return $app['twig']->render('admin/realestate/edit.twig', array(
                     'property' => $property[0],                    
-                    'imgAr' => $imgAr,             
+                    'imgAr' => $imgAr,           
                     'link' => $link, 
                     'editform' => $editform->createView(), 
                     "user"   => $app['session']->get('username')));        

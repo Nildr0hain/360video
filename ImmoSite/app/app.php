@@ -42,10 +42,10 @@
  *              CSS
  *              HTML
  * 
- *          Customise tiny mce
+ *    -      Customise tiny mce
  * 
-            Er	zijn	geen	grote	beveiligingsproblemen	(SQL	Injec;e,	Cross-Site	Scrip;ng	(XSS),	Parameter	
-            Tampering,	Encrypteren	van	wachtwoorden,	Onderdrukken	van	foutmeldingen)
+      +      Er	zijn	geen	grote	beveiligingsproblemen	(SQL	Injec;e,	Cross-Site	Scrip;ng	(XSS),	Parameter	
+      +      Tampering,	Encrypteren	van	wachtwoorden,	Onderdrukken	van	foutmeldingen)
  * 
  *    +      UW LOGO - weer nie aanklikbaar. Hoempapa.
  *    +      Check alle links / ook die in de extra footer :D
@@ -56,8 +56,8 @@
  *    +      Fix linkske van /home naar /admin. Make it easyyyyy
  *    +      Error pages hier vanonder uit kommentaar dankuwel alstulieft
  * 
- *          PARAMETER TAMPERING - srsly - SEARCH FIELD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
- *          en ziet ook es naar SQL injectie - kan niet droppen - mss niet in de manier dant moet
+ *    +      PARAMETER TAMPERING - srsly - SEARCH FIELD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ *    +      en ziet ook es naar SQL injectie - kan niet droppen - mss niet in de manier dant moet
  * 
  *    +      Ik zoek graag - verwijder alle "rare" tekens
  *          Zet readme proper
