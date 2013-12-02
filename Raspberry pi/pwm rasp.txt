@@ -1,0 +1,3 @@
+When MSEN=0, which is the default mode, data to be sent is interpreted as the value N of the 
+algorithm explained above. Number of clock cycles (range) used to send data is the value M of the 
+algorithm. Pulses are sent within this range so that the resulting duty cycle is N/M.
