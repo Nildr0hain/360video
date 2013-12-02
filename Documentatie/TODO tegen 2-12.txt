@@ -1,13 +1,13 @@
 ﻿
 C# - Sara
 	Documentatie opstarten	- how to kinect voor noobies
-	fix dat de threads gesloten worden na het versturen van het character
-	fix dat er niet oneingig veel LLLL / RRR wordt gestuurd, zoek manier om om de 0.5 seconden te sturen
-	indien 15 seconden idle, stuur een m om camera in het midden te zetten
++	fix dat de threads gesloten worden na het versturen van het character
++	fix dat er niet oneingig veel LLLL / RRR wordt gestuurd, zoek manier om om de 0.5 seconden te sturen
++	indien 15 seconden idle, stuur een m om camera in het midden te zetten
 
  Raspb - Chester
 	Documentatie opstarten	- how to raspb voor noobies
-	L/R inlezen en motor aansturen aan de hand van input
++	L/R inlezen en motor aansturen aan de hand van input
 	Denk over camera op motor ducktapen
 
  Anders - Rossen

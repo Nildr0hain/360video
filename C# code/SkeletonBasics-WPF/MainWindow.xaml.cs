@@ -389,7 +389,8 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
         }
 
 
-        
+        public static DateTime lastHit = new DateTime();
+        public static Boolean mSend = false;
         /// <summary>
         /// Custom function - check direction hands
         /// </summary>
@@ -408,23 +409,36 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
             {
                 TelnetChar("L", drawingContext);  
             });
-
-            if (handLeft.X <= hipCenter.X - 0.4)
+            Thread t3 = new Thread(delegate()
             {
-                FormattedText left = new FormattedText("L ! ",
+                TelnetChar("M", drawingContext);
+            });
+
+            /*
+             *  Met deze code zal hij max 2/3 keer per seconde een L/R sturen
+             *  En na 10 seconden in activiteit stuurt hij een M
+             */
+
+            if (handLeft.X <= hipCenter.X - 0.4 && lastHit.Add(new System.TimeSpan(0, 0, 0, 0, 500)) <= DateTime.Now)
+            {
+                FormattedText left = new FormattedText("L send! ",
                    new CultureInfo("en-us"),
                    FlowDirection.LeftToRight,
                    new Typeface(new FontFamily("Arial"), FontStyles.Normal,
                    FontWeights.Normal, new FontStretch()),
                    16D,
                    Brushes.White);
+
                 drawingContext.DrawText(left, new Point(300, 50));
 
                 t2.Start();
+                lastHit = DateTime.Now;
+                mSend = false;
             }
-            if (handRight.X >= hipCenter.X + 0.4)
+
+            if (handRight.X >= hipCenter.X + 0.4 && lastHit.Add(new System.TimeSpan(0, 0, 0, 0, 500)) <= DateTime.Now)
             {
-                FormattedText left = new FormattedText("R !",
+                FormattedText left = new FormattedText("R send!",
                    new CultureInfo("en-us"),
                    FlowDirection.LeftToRight,
                    new Typeface(new FontFamily("Arial"), FontStyles.Normal,
@@ -434,8 +448,25 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                 drawingContext.DrawText(left, new Point(300, 50));
 
                 t1.Start();
+                lastHit = DateTime.Now;
+                mSend = false;
             }
-            
+
+            if (lastHit.Add(new System.TimeSpan(0, 0, 10)) <= DateTime.Now && !mSend)
+            {
+                FormattedText left = new FormattedText("Turn Mid!",
+                      new CultureInfo("en-us"),
+                      FlowDirection.LeftToRight,
+                      new Typeface(new FontFamily("Arial"), FontStyles.Normal,
+                      FontWeights.Normal, new FontStretch()),
+                      16D,
+                      Brushes.White);
+                drawingContext.DrawText(left, new Point(300, 50));
+
+                t3.Start();
+                lastHit = DateTime.Now;
+                mSend = true;
+            }            
         }
 
           
@@ -444,7 +475,7 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
         /// </summary>
         private void TelnetChar(string charToSend,  DrawingContext drawingContext) {
             //create a new telnet connection to hostname "gobelijn" on port "23"
-            TelnetConnection tc = new TelnetConnection("192.168.1.26", 8888);
+            /*TelnetConnection tc = new TelnetConnection("192.168.1.26", 8888);
 
             string prompt = "";
             // while connected
@@ -453,7 +484,24 @@ namespace Microsoft.Samples.Kinect.SkeletonBasics
                 prompt = charToSend;
                 tc.WriteLine(prompt);
                 string temp = tc.Read();
-            }          
+            }*/
+            
+            using (StreamWriter w = File.AppendText("logFile.txt"))
+            {
+                Log(charToSend + " send to raspberry through telnet.", w);
+            }
+            Thread.Sleep(100);
+            //  500 is 5sec
+            //  25 is 0.25sec
         }
+
+       
+        public static void Log(string logMessage, TextWriter w)
+        {
+           // w.Write("\nLog Entry : ");
+            w.WriteLine("\n{0}", DateTime.Now);
+            w.WriteLine("\r : {0}", logMessage);
+        }
+
     }
 }
