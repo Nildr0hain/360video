@@ -1,0 +1,12 @@
+C:\Users\Sara\Desktop\video360\C# code\Projecten02\Projecten02\Projecten02\bin\Debug\Projecten02.exe.config
+C:\Users\Sara\Desktop\video360\C# code\Projecten02\Projecten02\Projecten02\bin\Debug\Projecten02.exe
+C:\Users\Sara\Desktop\video360\C# code\Projecten02\Projecten02\Projecten02\bin\Debug\Projecten02.pdb
+C:\Users\Sara\Desktop\video360\C# code\Projecten02\Projecten02\Projecten02\bin\Debug\Properties.Resources.Designer.cs.dll
+C:\Users\Sara\Desktop\video360\C# code\Projecten02\Projecten02\Projecten02\obj\Debug\Projecten02.csprojResolveAssemblyReference.cache
+C:\Users\Sara\Desktop\video360\C# code\Projecten02\Projecten02\Projecten02\obj\Debug\Projecten02.Form1.resources
+C:\Users\Sara\Desktop\video360\C# code\Projecten02\Projecten02\Projecten02\obj\Debug\Projecten02.Properties.Resources.resources
+C:\Users\Sara\Desktop\video360\C# code\Projecten02\Projecten02\Projecten02\obj\Debug\Projecten02.csproj.GenerateResource.Cache
+C:\Users\Sara\Desktop\video360\C# code\Projecten02\Projecten02\Projecten02\obj\Debug\Projecten02.exe
+C:\Users\Sara\Desktop\video360\C# code\Projecten02\Projecten02\Projecten02\obj\Debug\Projecten02.pdb
+C:\Users\Sara\Desktop\video360\C# code\Projecten02\Projecten02\Projecten02\obj\Debug\Interop.SpeechLib.dll
+C:\Users\Sara\Desktop\video360\C# code\Projecten02\Projecten02\Projecten02\obj\Debug\Projecten02.csproj.ResolveComReference.cache

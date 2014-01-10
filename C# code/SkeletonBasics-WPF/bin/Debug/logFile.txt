@@ -1,50 +1,135 @@
-02/12/2013 01:19:43
- : L send to raspberry through telnet.
 
-02/12/2013 01:19:44
- : L send to raspberry through telnet.
-
-02/12/2013 01:19:45
- : L send to raspberry through telnet.
-
-02/12/2013 01:20:17
- : L send to raspberry through telnet.
-
-02/12/2013 01:20:18
- : L send to raspberry through telnet.
-
-02/12/2013 01:20:19
- : L send to raspberry through telnet.
-
-02/12/2013 01:20:20
- : L send to raspberry through telnet.
-
-02/12/2013 01:25:41
+02/12/2013 13:22:28
  : M send to raspberry through telnet.
 
-02/12/2013 01:25:41
+02/12/2013 13:22:30
  : L send to raspberry through telnet.
 
-02/12/2013 01:25:42
+02/12/2013 13:22:35
  : L send to raspberry through telnet.
 
-02/12/2013 01:25:42
+02/12/2013 13:22:36
  : L send to raspberry through telnet.
 
-02/12/2013 01:25:43
+02/12/2013 13:22:36
  : L send to raspberry through telnet.
 
-02/12/2013 01:25:43
+02/12/2013 13:22:37
  : L send to raspberry through telnet.
 
-02/12/2013 01:25:53
- : M send to raspberry through telnet.
+02/12/2013 13:22:37
+ : L send to raspberry through telnet.
 
-02/12/2013 01:25:57
+02/12/2013 13:22:38
+ : L send to raspberry through telnet.
+
+02/12/2013 13:22:39
+ : L send to raspberry through telnet.
+
+02/12/2013 13:22:39
+ : L send to raspberry through telnet.
+
+02/12/2013 13:22:40
+ : L send to raspberry through telnet.
+
+02/12/2013 13:22:40
+ : L send to raspberry through telnet.
+
+02/12/2013 13:22:41
+ : L send to raspberry through telnet.
+
+02/12/2013 13:22:41
+ : L send to raspberry through telnet.
+
+02/12/2013 13:22:42
  : R send to raspberry through telnet.
 
-02/12/2013 01:25:58
+02/12/2013 13:22:42
+ : R send to raspberry through telnet.
+
+02/12/2013 13:22:43
+ : R send to raspberry through telnet.
+
+02/12/2013 13:22:43
+ : R send to raspberry through telnet.
+
+02/12/2013 13:22:44
+ : R send to raspberry through telnet.
+
+02/12/2013 13:22:44
+ : R send to raspberry through telnet.
+
+02/12/2013 13:22:54
+ : M send to raspberry through telnet.
+
+02/12/2013 13:23:01
+ : R send to raspberry through telnet.
+
+02/12/2013 13:23:01
+ : R send to raspberry through telnet.
+
+02/12/2013 13:23:02
+ : R send to raspberry through telnet.
+
+02/12/2013 13:23:02
+ : R send to raspberry through telnet.
+
+02/12/2013 13:23:08
+ : R send to raspberry through telnet.
+
+02/12/2013 13:23:09
+ : R send to raspberry through telnet.
+
+02/12/2013 13:23:12
  : L send to raspberry through telnet.
 
-02/12/2013 01:26:08
+02/12/2013 13:23:13
+ : L send to raspberry through telnet.
+
+02/12/2013 13:23:13
+ : L send to raspberry through telnet.
+
+02/12/2013 13:23:14
+ : L send to raspberry through telnet.
+
+02/12/2013 13:23:14
+ : L send to raspberry through telnet.
+
+02/12/2013 13:23:15
+ : L send to raspberry through telnet.
+
+02/12/2013 13:25:43
  : M send to raspberry through telnet.
+
+02/12/2013 13:25:45
+ : L send to raspberry through telnet.
+
+02/12/2013 13:25:45
+ : L send to raspberry through telnet.
+
+02/12/2013 13:25:46
+ : L send to raspberry through telnet.
+
+02/12/2013 13:25:46
+ : L send to raspberry through telnet.
+
+02/12/2013 13:25:46
+ : L send to raspberry through telnet.
+
+02/12/2013 13:25:47
+ : L send to raspberry through telnet.
+
+02/12/2013 13:25:47
+ : L send to raspberry through telnet.
+
+02/12/2013 13:25:48
+ : L send to raspberry through telnet.
+
+02/12/2013 13:25:48
+ : L send to raspberry through telnet.
+
+02/12/2013 13:25:49
+ : L send to raspberry through telnet.
+
+02/12/2013 13:25:49
+ : L send to raspberry through telnet.
