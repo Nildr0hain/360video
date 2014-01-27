@@ -1,0 +1,24 @@
+﻿<Window x:Class="Microsoft.Samples.Kinect.SpeechBasics.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Speech Basics" Height="568.746" Width="974.328"
+        Loaded="WindowLoaded" Closing="WindowClosing">
+    <Window.Resources>
+        <SolidColorBrush x:Key="MediumGreyBrush" Color="#ff6e6e6e"/>
+        <SolidColorBrush x:Key="LightGreyBrush" Color="#ffd2d2d2"/>
+        <SolidColorBrush x:Key="KinectPurpleBrush" Color="#ff52318f"/>
+        <Style TargetType="{x:Type Image}">
+            <Setter Property="SnapsToDevicePixels" Value="True"/>
+        </Style>
+    </Window.Resources>
+    
+    <Grid Margin="10,0,73,513">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <WindowsFormsHost x:Name="winform" HorizontalAlignment="Left" Height="446" Margin="11,53,-56,-476" Grid.Row="3" VerticalAlignment="Top" Width="928"/>
+    </Grid>
+</Window>

@@ -1,0 +1,46 @@
+﻿<grammar version="1.0" xml:lang="en-US" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>CLOSE</tag>
+        <one-of>
+          <item> close </item>
+          <item> exit </item>
+          <item> stop </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>SWITCH</tag>
+        <one-of>
+          <item> switch </item>
+          <item> minimise </item>
+          <item> tab </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>CENTER</tag>
+        <one-of>
+          <item> center </item>
+          <item> middle </item>
+          <item> focus </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>LEFT</tag>
+        <one-of>
+          <item> left </item>
+          <item> turn left </item>
+          <item> view left </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>RIGHT</tag>
+        <one-of>
+          <item> right </item>
+          <item> turn right </item>
+          <item> view right </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

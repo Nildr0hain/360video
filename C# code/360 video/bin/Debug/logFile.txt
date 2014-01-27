@@ -1,0 +1,1473 @@
+
+19/01/2014 22:28:41
+ : L send to raspberry through telnet.
+
+19/01/2014 22:28:50
+ : R send to raspberry through telnet.
+
+19/01/2014 22:28:54
+ : R send to raspberry through telnet.
+
+19/01/2014 22:53:35
+ : L send to raspberry through telnet.
+
+19/01/2014 22:53:37
+ : S send to raspberry through telnet.
+
+19/01/2014 22:53:40
+ : C send to raspberry through telnet.
+
+19/01/2014 22:53:41
+ : R send to raspberry through telnet.
+
+19/01/2014 22:53:44
+ : R send to raspberry through telnet.
+
+19/01/2014 22:54:08
+ : M send to raspberry through telnet.
+
+19/01/2014 22:54:10
+ : R send to raspberry through telnet.
+
+19/01/2014 22:54:11
+ : R send to raspberry through telnet.
+
+19/01/2014 22:54:11
+ : R send to raspberry through telnet.
+
+19/01/2014 22:54:12
+ : R send to raspberry through telnet.
+
+19/01/2014 22:54:12
+ : R send to raspberry through telnet.
+
+19/01/2014 22:54:13
+ : R send to raspberry through telnet.
+
+19/01/2014 22:54:13
+ : R send to raspberry through telnet.
+
+19/01/2014 22:54:14
+ : R send to raspberry through telnet.
+
+19/01/2014 22:54:14
+ : R send to raspberry through telnet.
+
+19/01/2014 22:54:15
+ : R send to raspberry through telnet.
+
+19/01/2014 22:54:15
+ : R send to raspberry through telnet.
+
+19/01/2014 22:54:16
+ : R send to raspberry through telnet.
+
+19/01/2014 22:54:17
+ : R send to raspberry through telnet.
+
+19/01/2014 22:54:17
+ : R send to raspberry through telnet.
+
+19/01/2014 22:54:18
+ : R send to raspberry through telnet.
+
+19/01/2014 22:57:36
+ : C send to raspberry through telnet.
+
+19/01/2014 23:40:59
+ : C send to raspberry through telnet.
+
+24/01/2014 14:18:26
+ : L send to raspberry through telnet.
+
+24/01/2014 14:18:29
+ : C send to raspberry through telnet.
+
+26/01/2014 16:22:27
+ : M send to raspberry through telnet.
+
+26/01/2014 16:22:31
+ : L send to raspberry through telnet.
+
+26/01/2014 16:22:36
+ : L send to raspberry through telnet.
+
+26/01/2014 16:22:39
+ : L send to raspberry through telnet.
+
+26/01/2014 16:22:39
+ : L send to raspberry through telnet.
+
+26/01/2014 16:22:42
+ : L send to raspberry through telnet.
+
+26/01/2014 16:22:49
+ : L send to raspberry through telnet.
+
+26/01/2014 16:22:49
+ : M send to raspberry through telnet.
+
+26/01/2014 16:22:52
+ : R send to raspberry through telnet.
+
+26/01/2014 16:22:54
+ : L send to raspberry through telnet.
+
+26/01/2014 16:23:00
+ : C send to raspberry through telnet.
+
+26/01/2014 21:16:56
+ : C send to raspberry through telnet.
+
+26/01/2014 22:51:23
+ : C send to raspberry through telnet.
+
+26/01/2014 22:54:29
+ : C send to raspberry through telnet.
+
+26/01/2014 23:06:37
+ : M send to raspberry through telnet.
+
+26/01/2014 23:06:39
+ : R send to raspberry through telnet.
+
+26/01/2014 23:06:40
+ : R send to raspberry through telnet.
+
+26/01/2014 23:06:40
+ : R send to raspberry through telnet.
+
+26/01/2014 23:06:41
+ : R send to raspberry through telnet.
+
+26/01/2014 23:06:41
+ : R send to raspberry through telnet.
+
+26/01/2014 23:06:42
+ : R send to raspberry through telnet.
+
+26/01/2014 23:06:46
+ : C send to raspberry through telnet.
+
+26/01/2014 23:09:26
+ : M send to raspberry through telnet.
+
+26/01/2014 23:09:28
+ : R send to raspberry through telnet.
+
+26/01/2014 23:09:29
+ : R send to raspberry through telnet.
+
+26/01/2014 23:09:29
+ : L send to raspberry through telnet.
+
+26/01/2014 23:09:29
+ : R send to raspberry through telnet.
+
+26/01/2014 23:09:30
+ : R send to raspberry through telnet.
+
+26/01/2014 23:09:30
+ : R send to raspberry through telnet.
+
+26/01/2014 23:09:34
+ : L send to raspberry through telnet.
+
+26/01/2014 23:09:35
+ : L send to raspberry through telnet.
+
+26/01/2014 23:09:37
+ : L send to raspberry through telnet.
+
+26/01/2014 23:09:39
+ : L send to raspberry through telnet.
+
+26/01/2014 23:09:40
+ : R send to raspberry through telnet.
+
+26/01/2014 23:09:41
+ : R send to raspberry through telnet.
+
+26/01/2014 23:09:41
+ : R send to raspberry through telnet.
+
+26/01/2014 23:09:42
+ : C send to raspberry through telnet.
+
+26/01/2014 23:10:01
+ : M send to raspberry through telnet.
+
+26/01/2014 23:10:11
+ : R send to raspberry through telnet.
+
+26/01/2014 23:10:14
+ : L send to raspberry through telnet.
+
+26/01/2014 23:10:20
+ : S send to raspberry through telnet.
+
+26/01/2014 23:10:23
+ : S send to raspberry through telnet.
+
+26/01/2014 23:10:24
+ : M send to raspberry through telnet.
+
+26/01/2014 23:10:27
+ : L send to raspberry through telnet.
+
+26/01/2014 23:10:29
+ : R send to raspberry through telnet.
+
+26/01/2014 23:11:33
+ : M send to raspberry through telnet.
+
+26/01/2014 23:11:36
+ : C send to raspberry through telnet.
+
+26/01/2014 23:12:08
+ : R send to raspberry through telnet.
+
+26/01/2014 23:12:10
+ : L send to raspberry through telnet.
+
+26/01/2014 23:12:12
+ : M send to raspberry through telnet.
+
+26/01/2014 23:12:15
+ : M send to raspberry through telnet.
+
+26/01/2014 23:12:17
+ : L send to raspberry through telnet.
+
+26/01/2014 23:12:21
+ : L send to raspberry through telnet.
+
+26/01/2014 23:12:22
+ : L send to raspberry through telnet.
+
+26/01/2014 23:12:22
+ : L send to raspberry through telnet.
+
+26/01/2014 23:12:23
+ : L send to raspberry through telnet.
+
+26/01/2014 23:12:25
+ : M send to raspberry through telnet.
+
+26/01/2014 23:12:28
+ : L send to raspberry through telnet.
+
+26/01/2014 23:12:29
+ : L send to raspberry through telnet.
+
+26/01/2014 23:12:31
+ : M send to raspberry through telnet.
+
+26/01/2014 23:12:36
+ : S send to raspberry through telnet.
+
+26/01/2014 23:12:36
+ : R send to raspberry through telnet.
+
+26/01/2014 23:12:36
+ : R send to raspberry through telnet.
+
+26/01/2014 23:12:37
+ : R send to raspberry through telnet.
+
+26/01/2014 23:12:37
+ : R send to raspberry through telnet.
+
+26/01/2014 23:12:38
+ : R send to raspberry through telnet.
+
+26/01/2014 23:12:40
+ : M send to raspberry through telnet.
+
+26/01/2014 23:12:43
+ : C send to raspberry through telnet.
+
+26/01/2014 23:13:04
+ : M send to raspberry through telnet.
+
+26/01/2014 23:13:08
+ : L send to raspberry through telnet.
+
+26/01/2014 23:13:12
+ : C send to raspberry through telnet.
+
+26/01/2014 23:13:53
+ : L send to raspberry through telnet.
+
+26/01/2014 23:13:55
+ : M send to raspberry through telnet.
+
+26/01/2014 23:13:57
+ : R send to raspberry through telnet.
+
+26/01/2014 23:13:58
+ : R send to raspberry through telnet.
+
+26/01/2014 23:13:58
+ : R send to raspberry through telnet.
+
+26/01/2014 23:14:06
+ : M send to raspberry through telnet.
+
+26/01/2014 23:14:08
+ : M send to raspberry through telnet.
+
+26/01/2014 23:14:11
+ : M send to raspberry through telnet.
+
+26/01/2014 23:14:21
+ : L send to raspberry through telnet.
+
+26/01/2014 23:14:23
+ : L send to raspberry through telnet.
+
+26/01/2014 23:14:24
+ : L send to raspberry through telnet.
+
+26/01/2014 23:14:26
+ : L send to raspberry through telnet.
+
+26/01/2014 23:14:27
+ : M send to raspberry through telnet.
+
+26/01/2014 23:14:50
+ : L send to raspberry through telnet.
+
+26/01/2014 23:15:02
+ : M send to raspberry through telnet.
+
+26/01/2014 23:15:11
+ : R send to raspberry through telnet.
+
+26/01/2014 23:15:16
+ : L send to raspberry through telnet.
+
+26/01/2014 23:15:28
+ : M send to raspberry through telnet.
+
+26/01/2014 23:15:38
+ : L send to raspberry through telnet.
+
+26/01/2014 23:15:40
+ : R send to raspberry through telnet.
+
+26/01/2014 23:15:50
+ : M send to raspberry through telnet.
+
+26/01/2014 23:16:03
+ : L send to raspberry through telnet.
+
+26/01/2014 23:16:06
+ : R send to raspberry through telnet.
+
+26/01/2014 23:16:13
+ : L send to raspberry through telnet.
+
+26/01/2014 23:16:16
+ : M send to raspberry through telnet.
+
+26/01/2014 23:16:17
+ : L send to raspberry through telnet.
+
+26/01/2014 23:16:23
+ : R send to raspberry through telnet.
+
+26/01/2014 23:16:25
+ : R send to raspberry through telnet.
+
+26/01/2014 23:16:25
+ : R send to raspberry through telnet.
+
+26/01/2014 23:17:21
+ : M send to raspberry through telnet.
+
+26/01/2014 23:17:24
+ : M send to raspberry through telnet.
+
+26/01/2014 23:17:26
+ : L send to raspberry through telnet.
+
+26/01/2014 23:17:36
+ : M send to raspberry through telnet.
+
+26/01/2014 23:27:00
+ : M send to raspberry through telnet.
+
+26/01/2014 23:27:03
+ : L send to raspberry through telnet.
+
+26/01/2014 23:27:04
+ : L send to raspberry through telnet.
+
+26/01/2014 23:27:07
+ : R send to raspberry through telnet.
+
+26/01/2014 23:27:08
+ : M send to raspberry through telnet.
+
+26/01/2014 23:27:14
+ : C send to raspberry through telnet.
+
+26/01/2014 23:29:47
+ : M send to raspberry through telnet.
+
+26/01/2014 23:29:56
+ : M send to raspberry through telnet.
+
+26/01/2014 23:29:58
+ : R send to raspberry through telnet.
+
+26/01/2014 23:29:59
+ : R send to raspberry through telnet.
+
+26/01/2014 23:29:59
+ : R send to raspberry through telnet.
+
+26/01/2014 23:30:00
+ : R send to raspberry through telnet.
+
+26/01/2014 23:30:00
+ : R send to raspberry through telnet.
+
+26/01/2014 23:30:01
+ : R send to raspberry through telnet.
+
+26/01/2014 23:30:01
+ : L send to raspberry through telnet.
+
+26/01/2014 23:30:02
+ : R send to raspberry through telnet.
+
+26/01/2014 23:30:02
+ : R send to raspberry through telnet.
+
+26/01/2014 23:30:03
+ : L send to raspberry through telnet.
+
+26/01/2014 23:30:07
+ : L send to raspberry through telnet.
+
+26/01/2014 23:30:07
+ : L send to raspberry through telnet.
+
+26/01/2014 23:30:07
+ : M send to raspberry through telnet.
+
+26/01/2014 23:30:09
+ : M send to raspberry through telnet.
+
+26/01/2014 23:30:15
+ : L send to raspberry through telnet.
+
+26/01/2014 23:30:23
+ : L send to raspberry through telnet.
+
+26/01/2014 23:30:25
+ : M send to raspberry through telnet.
+
+26/01/2014 23:30:27
+ : C send to raspberry through telnet.
+
+26/01/2014 23:30:42
+ : M send to raspberry through telnet.
+
+26/01/2014 23:30:48
+ : L send to raspberry through telnet.
+
+26/01/2014 23:30:50
+ : R send to raspberry through telnet.
+
+26/01/2014 23:30:51
+ : R send to raspberry through telnet.
+
+26/01/2014 23:30:56
+ : R send to raspberry through telnet.
+
+26/01/2014 23:30:56
+ : R send to raspberry through telnet.
+
+26/01/2014 23:30:56
+ : R send to raspberry through telnet.
+
+26/01/2014 23:30:57
+ : R send to raspberry through telnet.
+
+26/01/2014 23:30:57
+ : R send to raspberry through telnet.
+
+26/01/2014 23:30:58
+ : R send to raspberry through telnet.
+
+26/01/2014 23:30:58
+ : R send to raspberry through telnet.
+
+26/01/2014 23:30:59
+ : R send to raspberry through telnet.
+
+26/01/2014 23:30:59
+ : R send to raspberry through telnet.
+
+26/01/2014 23:31:00
+ : R send to raspberry through telnet.
+
+26/01/2014 23:31:00
+ : R send to raspberry through telnet.
+
+26/01/2014 23:31:01
+ : L send to raspberry through telnet.
+
+26/01/2014 23:31:01
+ : L send to raspberry through telnet.
+
+26/01/2014 23:31:02
+ : L send to raspberry through telnet.
+
+26/01/2014 23:31:03
+ : L send to raspberry through telnet.
+
+26/01/2014 23:31:04
+ : M send to raspberry through telnet.
+
+26/01/2014 23:31:06
+ : R send to raspberry through telnet.
+
+26/01/2014 23:31:06
+ : R send to raspberry through telnet.
+
+26/01/2014 23:31:07
+ : R send to raspberry through telnet.
+
+26/01/2014 23:31:07
+ : R send to raspberry through telnet.
+
+26/01/2014 23:31:08
+ : R send to raspberry through telnet.
+
+26/01/2014 23:31:08
+ : R send to raspberry through telnet.
+
+26/01/2014 23:31:09
+ : R send to raspberry through telnet.
+
+26/01/2014 23:31:11
+ : M send to raspberry through telnet.
+
+26/01/2014 23:31:19
+ : M send to raspberry through telnet.
+
+26/01/2014 23:31:23
+ : M send to raspberry through telnet.
+
+26/01/2014 23:31:29
+ : C send to raspberry through telnet.
+
+26/01/2014 23:32:43
+ : M send to raspberry through telnet.
+
+26/01/2014 23:32:50
+ : R send to raspberry through telnet.
+
+26/01/2014 23:32:50
+ : R send to raspberry through telnet.
+
+26/01/2014 23:32:51
+ : R send to raspberry through telnet.
+
+26/01/2014 23:32:51
+ : R send to raspberry through telnet.
+
+26/01/2014 23:32:52
+ : R send to raspberry through telnet.
+
+26/01/2014 23:32:52
+ : R send to raspberry through telnet.
+
+26/01/2014 23:32:55
+ : M send to raspberry through telnet.
+
+26/01/2014 23:33:02
+ : M send to raspberry through telnet.
+
+26/01/2014 23:33:09
+ : C send to raspberry through telnet.
+
+26/01/2014 23:33:38
+ : M send to raspberry through telnet.
+
+26/01/2014 23:33:40
+ : R send to raspberry through telnet.
+
+26/01/2014 23:33:41
+ : R send to raspberry through telnet.
+
+26/01/2014 23:33:41
+ : R send to raspberry through telnet.
+
+26/01/2014 23:33:42
+ : R send to raspberry through telnet.
+
+26/01/2014 23:33:42
+ : R send to raspberry through telnet.
+
+26/01/2014 23:33:43
+ : R send to raspberry through telnet.
+
+26/01/2014 23:33:44
+ : R send to raspberry through telnet.
+
+26/01/2014 23:33:44
+ : R send to raspberry through telnet.
+
+26/01/2014 23:33:45
+ : R send to raspberry through telnet.
+
+26/01/2014 23:33:45
+ : R send to raspberry through telnet.
+
+26/01/2014 23:33:46
+ : R send to raspberry through telnet.
+
+26/01/2014 23:33:48
+ : M send to raspberry through telnet.
+
+26/01/2014 23:33:49
+ : L send to raspberry through telnet.
+
+26/01/2014 23:33:49
+ : L send to raspberry through telnet.
+
+26/01/2014 23:33:50
+ : L send to raspberry through telnet.
+
+26/01/2014 23:33:50
+ : L send to raspberry through telnet.
+
+26/01/2014 23:33:51
+ : L send to raspberry through telnet.
+
+26/01/2014 23:33:51
+ : L send to raspberry through telnet.
+
+26/01/2014 23:33:52
+ : L send to raspberry through telnet.
+
+26/01/2014 23:33:52
+ : L send to raspberry through telnet.
+
+26/01/2014 23:33:53
+ : L send to raspberry through telnet.
+
+26/01/2014 23:33:55
+ : M send to raspberry through telnet.
+
+26/01/2014 23:33:58
+ : L send to raspberry through telnet.
+
+26/01/2014 23:34:00
+ : L send to raspberry through telnet.
+
+26/01/2014 23:34:01
+ : L send to raspberry through telnet.
+
+26/01/2014 23:34:03
+ : M send to raspberry through telnet.
+
+26/01/2014 23:34:03
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:05
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:07
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:08
+ : L send to raspberry through telnet.
+
+26/01/2014 23:34:08
+ : L send to raspberry through telnet.
+
+26/01/2014 23:34:09
+ : L send to raspberry through telnet.
+
+26/01/2014 23:34:11
+ : L send to raspberry through telnet.
+
+26/01/2014 23:34:11
+ : L send to raspberry through telnet.
+
+26/01/2014 23:34:12
+ : L send to raspberry through telnet.
+
+26/01/2014 23:34:12
+ : L send to raspberry through telnet.
+
+26/01/2014 23:34:13
+ : L send to raspberry through telnet.
+
+26/01/2014 23:34:13
+ : L send to raspberry through telnet.
+
+26/01/2014 23:34:17
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:18
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:18
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:19
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:29
+ : M send to raspberry through telnet.
+
+26/01/2014 23:34:30
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:32
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:35
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:37
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:39
+ : M send to raspberry through telnet.
+
+26/01/2014 23:34:49
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:49
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:50
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:50
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:51
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:51
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:52
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:52
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:53
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:53
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:54
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:54
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:55
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:55
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:56
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:56
+ : R send to raspberry through telnet.
+
+26/01/2014 23:34:57
+ : L send to raspberry through telnet.
+
+26/01/2014 23:34:57
+ : L send to raspberry through telnet.
+
+26/01/2014 23:34:58
+ : L send to raspberry through telnet.
+
+26/01/2014 23:34:58
+ : L send to raspberry through telnet.
+
+26/01/2014 23:34:59
+ : L send to raspberry through telnet.
+
+26/01/2014 23:34:59
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:00
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:00
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:01
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:01
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:02
+ : R send to raspberry through telnet.
+
+26/01/2014 23:35:02
+ : R send to raspberry through telnet.
+
+26/01/2014 23:35:03
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:03
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:04
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:05
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:05
+ : R send to raspberry through telnet.
+
+26/01/2014 23:35:06
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:06
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:07
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:07
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:08
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:08
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:09
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:09
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:10
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:10
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:11
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:11
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:12
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:12
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:13
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:13
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:13
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:14
+ : R send to raspberry through telnet.
+
+26/01/2014 23:35:14
+ : R send to raspberry through telnet.
+
+26/01/2014 23:35:15
+ : R send to raspberry through telnet.
+
+26/01/2014 23:35:15
+ : R send to raspberry through telnet.
+
+26/01/2014 23:35:16
+ : R send to raspberry through telnet.
+
+26/01/2014 23:35:16
+ : R send to raspberry through telnet.
+
+26/01/2014 23:35:17
+ : R send to raspberry through telnet.
+
+26/01/2014 23:35:17
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:18
+ : R send to raspberry through telnet.
+
+26/01/2014 23:35:18
+ : R send to raspberry through telnet.
+
+26/01/2014 23:35:18
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:19
+ : R send to raspberry through telnet.
+
+26/01/2014 23:35:19
+ : R send to raspberry through telnet.
+
+26/01/2014 23:35:19
+ : R send to raspberry through telnet.
+
+26/01/2014 23:35:20
+ : R send to raspberry through telnet.
+
+26/01/2014 23:35:20
+ : R send to raspberry through telnet.
+
+26/01/2014 23:35:21
+ : R send to raspberry through telnet.
+
+26/01/2014 23:35:22
+ : L send to raspberry through telnet.
+
+26/01/2014 23:35:32
+ : M send to raspberry through telnet.
+
+26/01/2014 23:35:43
+ : M send to raspberry through telnet.
+
+26/01/2014 23:36:09
+ : M send to raspberry through telnet.
+
+26/01/2014 23:36:12
+ : M send to raspberry through telnet.
+
+26/01/2014 23:39:40
+ : M send to raspberry through telnet.
+
+26/01/2014 23:39:42
+ : L send to raspberry through telnet.
+
+26/01/2014 23:39:44
+ : R send to raspberry through telnet.
+
+26/01/2014 23:39:50
+ : M send to raspberry through telnet.
+
+26/01/2014 23:39:52
+ : L send to raspberry through telnet.
+
+26/01/2014 23:39:53
+ : L send to raspberry through telnet.
+
+26/01/2014 23:39:55
+ : L send to raspberry through telnet.
+
+26/01/2014 23:39:57
+ : M send to raspberry through telnet.
+
+26/01/2014 23:40:18
+ : M send to raspberry through telnet.
+
+26/01/2014 23:40:41
+ : R send to raspberry through telnet.
+
+26/01/2014 23:40:53
+ : L send to raspberry through telnet.
+
+26/01/2014 23:40:56
+ : L send to raspberry through telnet.
+
+26/01/2014 23:40:58
+ : L send to raspberry through telnet.
+
+26/01/2014 23:40:59
+ : R send to raspberry through telnet.
+
+26/01/2014 23:41:02
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:04
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:06
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:07
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:09
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:09
+ : M send to raspberry through telnet.
+
+26/01/2014 23:41:15
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:20
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:21
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:23
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:24
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:26
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:27
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:28
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:29
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:31
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:33
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:34
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:36
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:38
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:39
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:41
+ : L send to raspberry through telnet.
+
+26/01/2014 23:41:47
+ : R send to raspberry through telnet.
+
+26/01/2014 23:41:50
+ : M send to raspberry through telnet.
+
+26/01/2014 23:41:58
+ : L send to raspberry through telnet.
+
+26/01/2014 23:42:11
+ : M send to raspberry through telnet.
+
+26/01/2014 23:42:11
+ : M send to raspberry through telnet.
+
+26/01/2014 23:42:19
+ : L send to raspberry through telnet.
+
+26/01/2014 23:42:29
+ : M send to raspberry through telnet.
+
+26/01/2014 23:42:47
+ : R send to raspberry through telnet.
+
+26/01/2014 23:42:48
+ : R send to raspberry through telnet.
+
+26/01/2014 23:42:48
+ : R send to raspberry through telnet.
+
+26/01/2014 23:42:49
+ : R send to raspberry through telnet.
+
+26/01/2014 23:42:49
+ : R send to raspberry through telnet.
+
+26/01/2014 23:42:50
+ : R send to raspberry through telnet.
+
+26/01/2014 23:42:51
+ : R send to raspberry through telnet.
+
+26/01/2014 23:42:51
+ : R send to raspberry through telnet.
+
+26/01/2014 23:42:52
+ : R send to raspberry through telnet.
+
+26/01/2014 23:42:54
+ : R send to raspberry through telnet.
+
+26/01/2014 23:42:56
+ : M send to raspberry through telnet.
+
+26/01/2014 23:43:04
+ : M send to raspberry through telnet.
+
+26/01/2014 23:43:13
+ : L send to raspberry through telnet.
+
+26/01/2014 23:43:14
+ : C send to raspberry through telnet.
+
+26/01/2014 23:43:41
+ : M send to raspberry through telnet.
+
+26/01/2014 23:43:54
+ : M send to raspberry through telnet.
+
+26/01/2014 23:44:00
+ : L send to raspberry through telnet.
+
+26/01/2014 23:44:10
+ : M send to raspberry through telnet.
+
+26/01/2014 23:44:11
+ : C send to raspberry through telnet.
+
+26/01/2014 23:44:31
+ : M send to raspberry through telnet.
+
+26/01/2014 23:44:47
+ : R send to raspberry through telnet.
+
+26/01/2014 23:44:47
+ : R send to raspberry through telnet.
+
+26/01/2014 23:44:48
+ : R send to raspberry through telnet.
+
+26/01/2014 23:44:49
+ : R send to raspberry through telnet.
+
+26/01/2014 23:44:49
+ : R send to raspberry through telnet.
+
+26/01/2014 23:44:50
+ : R send to raspberry through telnet.
+
+26/01/2014 23:44:50
+ : R send to raspberry through telnet.
+
+26/01/2014 23:44:51
+ : R send to raspberry through telnet.
+
+26/01/2014 23:44:51
+ : R send to raspberry through telnet.
+
+26/01/2014 23:45:01
+ : M send to raspberry through telnet.
+
+26/01/2014 23:45:04
+ : L send to raspberry through telnet.
+
+26/01/2014 23:45:04
+ : L send to raspberry through telnet.
+
+26/01/2014 23:45:04
+ : S send to raspberry through telnet.
+
+26/01/2014 23:45:05
+ : L send to raspberry through telnet.
+
+26/01/2014 23:45:05
+ : L send to raspberry through telnet.
+
+26/01/2014 23:45:06
+ : L send to raspberry through telnet.
+
+26/01/2014 23:45:06
+ : L send to raspberry through telnet.
+
+26/01/2014 23:45:07
+ : L send to raspberry through telnet.
+
+26/01/2014 23:45:07
+ : L send to raspberry through telnet.
+
+26/01/2014 23:45:08
+ : L send to raspberry through telnet.
+
+26/01/2014 23:45:08
+ : L send to raspberry through telnet.
+
+26/01/2014 23:45:09
+ : L send to raspberry through telnet.
+
+26/01/2014 23:45:09
+ : L send to raspberry through telnet.
+
+26/01/2014 23:45:19
+ : M send to raspberry through telnet.
+
+26/01/2014 23:45:24
+ : L send to raspberry through telnet.
+
+26/01/2014 23:45:26
+ : L send to raspberry through telnet.
+
+26/01/2014 23:45:28
+ : L send to raspberry through telnet.
+
+26/01/2014 23:45:30
+ : L send to raspberry through telnet.
+
+26/01/2014 23:45:32
+ : L send to raspberry through telnet.
+
+26/01/2014 23:45:34
+ : M send to raspberry through telnet.
+
+26/01/2014 23:45:37
+ : S send to raspberry through telnet.
+
+26/01/2014 23:45:41
+ : R send to raspberry through telnet.
+
+26/01/2014 23:45:46
+ : R send to raspberry through telnet.
+
+26/01/2014 23:45:48
+ : R send to raspberry through telnet.
+
+26/01/2014 23:45:51
+ : R send to raspberry through telnet.
+
+26/01/2014 23:45:53
+ : M send to raspberry through telnet.
+
+26/01/2014 23:46:02
+ : C send to raspberry through telnet.
+
+26/01/2014 23:46:16
+ : M send to raspberry through telnet.
+
+26/01/2014 23:46:30
+ : L send to raspberry through telnet.
+
+26/01/2014 23:46:36
+ : S send to raspberry through telnet.
+
+26/01/2014 23:46:36
+ : R send to raspberry through telnet.
+
+26/01/2014 23:46:43
+ : R send to raspberry through telnet.
+
+26/01/2014 23:46:43
+ : R send to raspberry through telnet.
+
+26/01/2014 23:46:44
+ : R send to raspberry through telnet.
+
+26/01/2014 23:46:45
+ : R send to raspberry through telnet.
+
+26/01/2014 23:46:48
+ : M send to raspberry through telnet.
+
+26/01/2014 23:46:50
+ : L send to raspberry through telnet.
+
+26/01/2014 23:46:51
+ : L send to raspberry through telnet.
+
+26/01/2014 23:46:54
+ : C send to raspberry through telnet.
+
+26/01/2014 23:47:14
+ : M send to raspberry through telnet.
+
+26/01/2014 23:47:29
+ : C send to raspberry through telnet.
+
+26/01/2014 23:47:53
+ : M send to raspberry through telnet.
+
+26/01/2014 23:48:01
+ : R send to raspberry through telnet.
+
+26/01/2014 23:48:08
+ : C send to raspberry through telnet.
+
+26/01/2014 23:48:27
+ : M send to raspberry through telnet.
+
+26/01/2014 23:48:29
+ : L send to raspberry through telnet.
+
+26/01/2014 23:48:29
+ : R send to raspberry through telnet.
+
+26/01/2014 23:48:30
+ : R send to raspberry through telnet.
+
+26/01/2014 23:48:31
+ : R send to raspberry through telnet.
+
+26/01/2014 23:48:31
+ : L send to raspberry through telnet.
+
+26/01/2014 23:48:31
+ : R send to raspberry through telnet.
+
+26/01/2014 23:48:33
+ : L send to raspberry through telnet.
+
+26/01/2014 23:48:33
+ : L send to raspberry through telnet.
+
+26/01/2014 23:48:34
+ : L send to raspberry through telnet.
+
+26/01/2014 23:48:34
+ : R send to raspberry through telnet.
+
+26/01/2014 23:48:35
+ : R send to raspberry through telnet.
+
+26/01/2014 23:48:36
+ : R send to raspberry through telnet.
+
+26/01/2014 23:48:36
+ : L send to raspberry through telnet.
+
+26/01/2014 23:48:37
+ : L send to raspberry through telnet.
+
+26/01/2014 23:48:45
+ : C send to raspberry through telnet.
+
+26/01/2014 23:49:02
+ : R send to raspberry through telnet.
+
+26/01/2014 23:49:05
+ : M send to raspberry through telnet.
+
+26/01/2014 23:49:10
+ : R send to raspberry through telnet.
+
+26/01/2014 23:49:10
+ : R send to raspberry through telnet.
+
+26/01/2014 23:49:11
+ : R send to raspberry through telnet.
+
+26/01/2014 23:49:11
+ : R send to raspberry through telnet.
+
+26/01/2014 23:49:12
+ : R send to raspberry through telnet.
+
+26/01/2014 23:49:12
+ : R send to raspberry through telnet.
+
+26/01/2014 23:49:13
+ : R send to raspberry through telnet.
+
+26/01/2014 23:49:13
+ : R send to raspberry through telnet.
+
+26/01/2014 23:49:16
+ : M send to raspberry through telnet.
+
+26/01/2014 23:49:16
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:17
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:17
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:18
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:19
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:19
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:20
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:20
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:23
+ : R send to raspberry through telnet.
+
+26/01/2014 23:49:24
+ : R send to raspberry through telnet.
+
+26/01/2014 23:49:26
+ : R send to raspberry through telnet.
+
+26/01/2014 23:49:28
+ : M send to raspberry through telnet.
+
+26/01/2014 23:49:30
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:30
+ : M send to raspberry through telnet.
+
+26/01/2014 23:49:31
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:33
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:34
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:34
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:35
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:35
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:36
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:36
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:37
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:37
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:46
+ : L send to raspberry through telnet.
+
+26/01/2014 23:49:47
+ : M send to raspberry through telnet.
+
+26/01/2014 23:49:48
+ : C send to raspberry through telnet.
